@@ -1,0 +1,355 @@
+date,time,comp,round,day,venue,result,gf,ga,opponent,xg,xga,poss,attendance,captain,formation,opp formation,referee,match report,notes,sh,sot,dist,fk,pk,pkatt,team,season
+01-09-2024,13:30,Premier League,Matchweek 3,Sun,Home,D,1,1,Crystal Palace,2.4,0.5,62.0,39298.0,Enzo Fernández,4-2-3-1,03-04-2003,Jarred Gillett,Match Report,,13.0,7.0,15.9,1.0,0,0,Chelsea,2024
+01-09-2024,13:30,Premier League,Matchweek 3,Sun,Away,D,1,1,Chelsea,0.5,2.4,38.0,39298.0,Marc Guéhi,03-04-2003,4-2-3-1,Jarred Gillett,Match Report,,9.0,3.0,20.6,1.0,0,0,Crystal Palace,2024
+01-09-2024,16:00,Premier League,Matchweek 3,Sun,Away,W,3,0,Manchester Utd,1.8,1.4,47.0,73738.0,Virgil van Dijk,4-2-3-1,4-2-3-1,Anthony Taylor,Match Report,,11.0,3.0,13.4,0.0,0,0,Liverpool,2024
+01-09-2024,16:00,Premier League,Matchweek 3,Sun,Home,L,0,3,Liverpool,1.4,1.8,53.0,73738.0,Bruno Fernandes,4-2-3-1,4-2-3-1,Anthony Taylor,Match Report,,8.0,3.0,15.6,0.0,0,0,Manchester United,2024
+01-09-2024,13:30,Premier League,Matchweek 3,Sun,Home,W,2,1,Tottenham,1.8,1.2,35.0,52211.0,Bruno Guimarães,04-03-2003,4-2-3-1,Robert Jones,Match Report,,9.0,3.0,14.0,0.0,0,0,Newcastle United,2024
+01-09-2024,13:30,Premier League,Matchweek 3,Sun,Away,L,1,2,Newcastle Utd,1.2,1.8,65.0,52211.0,Son Heung-min,4-2-3-1,04-03-2003,Robert Jones,Match Report,,20.0,6.0,19.9,1.0,0,0,Tottenham Hotspur,2024
+01-12-2024,13:30,Premier League,Matchweek 13,Sun,Away,L,0.0,3.0,Chelsea,1.2,1.6,36.0,40853.0,John McGinn,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,10.0,3.0,13.4,0.0,0,0,Aston Villa,2024
+01-12-2024,13:30,Premier League,Matchweek 13,Sun,Home,W,3.0,0.0,Aston Villa,1.6,1.2,64.0,40853.0,Enzo Fernández,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,17.0,8.0,15.8,0.0,0,0,Chelsea,2024
+01-12-2024,13:30,Premier League,Matchweek 13,Sun,Away,L,0,4,Manchester Utd,0.6,1.1,40.0,73817.0,James Tarkowski,4-2-3-1,3-4-3,John Brooks,Match Report,,8.0,2.0,21.3,2.0,0,0,Everton,2024
+01-12-2024,13:30,Premier League,Matchweek 13,Sun,Away,D,1,1,Tottenham,1.5,0.8,49.0,61141.0,Antonee Robinson,4-2-3-1,4-3-3,Darren Bond,Match Report,,14.0,6.0,13.4,0.0,0,0,Fulham,2024
+01-12-2024,16:00,Premier League,Matchweek 13,Sun,Home,W,2.0,0.0,Manchester City,3.4,0.8,44.0,60248.0,Virgil van Dijk,4-2-3-1,4-2-3-1,Chris Kavanagh,Match Report,,17.0,6.0,17.5,0.0,1,1,Liverpool,2024
+01-12-2024,16:00,Premier League,Matchweek 13,Sun,Away,L,0,2,Liverpool,0.8,3.4,56.0,60248.0,Kyle Walker,4-2-3-1,4-2-3-1,Chris Kavanagh,Match Report,,8.0,2.0,16.2,0.0,0,0,Manchester City,2024
+01-12-2024,13:30,Premier League,Matchweek 13,Sun,Home,W,4,0,Everton,1.1,0.6,60.0,73817.0,Bruno Fernandes,3-4-3,4-2-3-1,John Brooks,Match Report,,11.0,5.0,15.1,0.0,0,0,Manchester United,2024
+01-12-2024,13:30,Premier League,Matchweek 13,Sun,Home,D,1.0,1.0,Fulham,0.8,1.5,51.0,61141.0,Son Heung-min,4-3-3,4-2-3-1,Darren Bond,Match Report,,8.0,3.0,17.5,2.0,0,0,Tottenham Hotspur,2024
+02-11-2024,12:30,Premier League,Matchweek 10,Sat,Away,L,0,1,Newcastle Utd,1.1,0.5,63.0,52249.0,Bukayo Saka,04-04-2002,04-03-2003,John Brooks,Match Report,,10.0,0.0,14.9,0.0,0,0,Arsenal,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Home,W,2,1,Manchester City,2.0,1.6,36.0,11231.0,Adam Smith,4-2-3-1,4-1-4-1,Michael Oliver,Match Report,,12.0,6.0,16.0,0.0,0,0,Bournemouth,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Away,L,1,2,Liverpool,1.0,1.6,51.0,60331.0,Danny Welbeck,04-04-2002,4-2-3-1,Tony Harrington,Match Report,,13.0,5.0,19.6,2.0,0,0,Brighton and Hove Albion,2024
+02-11-2024,17:30,Premier League,Matchweek 10,Sat,Away,D,2,2,Wolves,2.4,1.5,43.0,31124.0,Marc Guéhi,03-04-2003,03-04-2003,Anthony Taylor,Match Report,,19.0,6.0,13.3,0.0,0,0,Crystal Palace,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Away,L,0,1,Southampton,1.6,0.7,35.0,31143.0,James Tarkowski,4-2-3-1,05-04-2001,Andy Madley,Match Report,,16.0,5.0,17.9,2.0,0,0,Everton,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Home,D,1,1,Leicester City,1.0,1.5,43.0,29874.0,Sam Morsy,4-2-3-1,4-2-3-1,Tim Robinson,Match Report,,14.0,2.0,16.9,1.0,0,0,Ipswich Town,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Away,D,1,1,Ipswich Town,1.5,1.0,57.0,29874.0,Jamie Vardy,4-2-3-1,4-2-3-1,Tim Robinson,Match Report,,20.0,5.0,16.7,0.0,0,0,Leicester City,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Home,W,2,1,Brighton,1.6,1.0,49.0,60331.0,Virgil van Dijk,4-2-3-1,04-04-2002,Tony Harrington,Match Report,,16.0,8.0,14.0,0.0,0,0,Liverpool,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Away,L,1,2,Bournemouth,1.6,2.0,64.0,11231.0,Kyle Walker,4-1-4-1,4-2-3-1,Michael Oliver,Match Report,,18.0,4.0,14.5,0.0,0,0,Manchester City,2024
+02-11-2024,12:30,Premier League,Matchweek 10,Sat,Home,W,1,0,Arsenal,0.5,1.1,37.0,52249.0,Bruno Guimarães,04-03-2003,04-04-2002,John Brooks,Match Report,,9.0,4.0,14.6,0.0,0,0,Newcastle United,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Home,W,3,0,West Ham,2.2,0.1,54.0,30112.0,Ryan Yates,4-2-3-1,03-04-2003,Peter Bankes,Match Report,,19.0,6.0,18.7,1.0,0,0,Nottingham Forest,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Home,W,1,0,Everton,0.7,1.6,65.0,31143.0,Jack Stephens,05-04-2001,4-2-3-1,Andy Madley,Match Report,,9.0,2.0,13.4,0.0,0,0,Southampton,2024
+02-11-2024,15:00,Premier League,Matchweek 10,Sat,Away,L,0,3,Nott'ham Forest,0.1,2.2,46.0,30112.0,Jarrod Bowen,03-04-2003,4-2-3-1,Peter Bankes,Match Report,,4.0,1.0,23.2,0.0,0,0,West Ham United,2024
+02-11-2024,17:30,Premier League,Matchweek 10,Sat,Home,D,2,2,Crystal Palace,1.5,2.4,57.0,31124.0,Nélson Semedo,03-04-2003,03-04-2003,Anthony Taylor,Match Report,,11.0,6.0,17.6,0.0,0,0,Wolverhampton Wanderers,2024
+03-11-2024,14:00,Premier League,Matchweek 10,Sun,Away,L,1,4,Tottenham,1.8,2.4,49.0,61253.0,John McGinn,4-2-3-1,04-03-2003,Craig Pawson,Match Report,,12.0,1.0,16.2,0.0,0,0,Aston Villa,2024
+03-11-2024,16:30,Premier League,Matchweek 10,Sun,Away,D,1,1,Manchester Utd,1.1,2.0,54.0,73813.0,Reece James,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,12.0,3.0,16.0,0.0,0,0,Chelsea,2024
+03-11-2024,16:30,Premier League,Matchweek 10,Sun,Home,D,1,1,Chelsea,2.0,1.1,46.0,73813.0,Bruno Fernandes,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,10.0,3.0,18.3,1.0,1,1,Manchester United,2024
+03-11-2024,14:00,Premier League,Matchweek 10,Sun,Home,W,4,1,Aston Villa,2.4,1.8,51.0,61253.0,Son Heung-min,04-03-2003,4-2-3-1,Craig Pawson,Match Report,,16.0,6.0,20.4,1.0,0,0,Tottenham Hotspur,2024
+03-12-2024,19:30,Premier League,Matchweek 14,Tue,Away,W,1.0,0.0,Ipswich Town,1.6,0.5,46.0,29533.0,Marc Guéhi,3-4-3,4-2-3-1,Craig Pawson,Match Report,,13.0,3.0,15.2,0.0,0,0,Crystal Palace,2024
+03-12-2024,19:30,Premier League,Matchweek 14,Tue,Home,L,0,1,Crystal Palace,0.5,1.6,54.0,29533.0,Sam Morsy,4-2-3-1,3-4-3,Craig Pawson,Match Report,,9.0,2.0,17.6,0.0,0,0,Ipswich Town,2024
+03-12-2024,20:15,Premier League,Matchweek 14,Tue,Home,W,3,1,West Ham,1.7,3.0,39.0,30947.0,Jamie Vardy,4-2-3-1,4-2-3-1,Joshua Smith,Match Report,,8.0,6.0,12.7,0.0,0,0,Leicester City,2024
+03-12-2024,20:15,Premier League,Matchweek 14,Tue,Away,L,1.0,3.0,Leicester City,3.0,1.7,61.0,30947.0,Jarrod Bowen,4-2-3-1,4-2-3-1,Joshua Smith,Match Report,,31.0,8.0,14.7,0.0,0,0,West Ham United,2024
+04-11-2024,20:00,Premier League,Matchweek 10,Mon,Away,L,1,2,Fulham,0.6,1.3,32.0,24931.0,Christian Nørgaard,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,5.0,2.0,18.0,0.0,0,0,Brentford,2024
+04-11-2024,20:00,Premier League,Matchweek 10,Mon,Home,W,2,1,Brentford,1.3,0.6,68.0,24931.0,Bernd Leno,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,26.0,12.0,18.3,0.0,0,0,Fulham,2024
+04-12-2024,20:15,Premier League,Matchweek 14,Wed,Home,W,2.0,0.0,Manchester Utd,2.1,0.2,51.0,60256.0,Martin Ødegaard,4-3-3,3-4-3,Samuel Barrott,Match Report,,14.0,6.0,11.0,0.0,0,0,Arsenal,2024
+04-12-2024,20:15,Premier League,Matchweek 14,Wed,Home,W,3.0,1.0,Brentford,2.4,0.9,49.0,42148.0,John McGinn,4-2-3-1,4-3-3,Lewis Smith,Match Report,,19.0,9.0,15.0,0.0,1,1,Aston Villa,2024
+04-12-2024,20:15,Premier League,Matchweek 14,Wed,Away,L,1,3,Aston Villa,0.9,2.4,51.0,42148.0,Vitaly Janelt,4-3-3,4-2-3-1,Lewis Smith,Match Report,,9.0,1.0,14.0,0.0,0,0,Brentford,2024
+04-12-2024,19:30,Premier League,Matchweek 14,Wed,Away,W,5.0,1.0,Southampton,5.2,1.6,55.0,31193.0,Enzo Fernández,4-2-3-1,5-3-2,Tony Harrington,Match Report,,26.0,11.0,12.6,1.0,0,0,Chelsea,2024
+04-12-2024,19:30,Premier League,Matchweek 14,Wed,Home,W,4,0,Wolves,1.0,0.8,44.0,38820.0,James Tarkowski,4-2-3-1,3-4-3,Michael Salisbury,Match Report,,13.0,4.0,18.7,1.0,0,0,Everton,2024
+04-12-2024,19:30,Premier League,Matchweek 14,Wed,Away,D,3.0,3.0,Newcastle Utd,1.9,2.1,58.0,52237.0,Virgil van Dijk,4-2-3-1,4-3-3,Andy Madley,Match Report,,16.0,5.0,12.7,0.0,0,0,Liverpool,2024
+04-12-2024,19:30,Premier League,Matchweek 14,Wed,Home,W,3,0,Nott'ham Forest,2.4,1.0,66.0,51764.0,Kevin De Bruyne,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,17.0,6.0,15.2,1.0,0,0,Manchester City,2024
+04-12-2024,20:15,Premier League,Matchweek 14,Wed,Away,L,0,2,Arsenal,0.2,2.1,49.0,60256.0,Bruno Fernandes,3-4-3,4-3-3,Samuel Barrott,Match Report,,5.0,2.0,17.7,0.0,0,0,Manchester United,2024
+04-12-2024,19:30,Premier League,Matchweek 14,Wed,Home,D,3,3,Liverpool,2.1,1.9,42.0,52237.0,Bruno Guimarães,4-3-3,4-2-3-1,Andy Madley,Match Report,,17.0,6.0,19.1,1.0,0,0,Newcastle United,2024
+04-12-2024,19:30,Premier League,Matchweek 14,Wed,Away,L,0,3,Manchester City,1.0,2.4,34.0,51764.0,Ryan Yates,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,12.0,3.0,16.6,0.0,0,0,Nottingham Forest,2024
+04-12-2024,19:30,Premier League,Matchweek 14,Wed,Home,L,1,5,Chelsea,1.6,5.2,45.0,31193.0,Jack Stephens,5-3-2,4-2-3-1,Tony Harrington,Match Report,,6.0,4.0,9.7,0.0,0,0,Southampton,2024
+04-12-2024,19:30,Premier League,Matchweek 14,Wed,Away,L,0.0,4.0,Everton,0.8,1.0,56.0,38820.0,Mario Lemina,3-4-3,4-2-3-1,Michael Salisbury,Match Report,,6.0,2.0,20.7,0.0,0,0,Wolverhampton Wanderers,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Home,W,3,1,Southampton,2.8,0.6,59.0,60307.0,Jorginho,04-04-2002,05-04-2001,Tony Harrington,Match Report,,29.0,6.0,14.6,0.0,0,0,Arsenal,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Away,L,0,1,Leicester City,2.1,0.8,55.0,31706.0,Adam Smith,4-2-3-1,4-2-3-1,Darren Bond,Match Report,,19.0,2.0,14.3,0.0,0,0,Bournemouth,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Home,W,5,3,Wolves,4.2,1.0,44.0,16960.0,Christian Nørgaard,4-2-3-1,4-1-4-1,Andy Madley,Match Report,,18.0,11.0,13.0,1.0,1,1,Brentford,2024
+05-10-2024,12:30,Premier League,Matchweek 7,Sat,Home,L,0,1,Liverpool,0.6,1.4,32.0,25185.0,Marc Guéhi,03-04-2003,4-2-3-1,Simon Hooper,Match Report,,9.0,5.0,21.9,0.0,0,0,Crystal Palace,2024
+05-10-2024,17:30,Premier League,Matchweek 7,Sat,Home,D,0,0,Newcastle Utd,0.7,2.1,33.0,39265.0,James Tarkowski,4-2-3-1,04-03-2003,Craig Pawson,Match Report,,8.0,2.0,24.3,1.0,0,0,Everton,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Away,L,2,3,Manchester City,2.6,1.6,42.0,53017.0,Bernd Leno,05-04-2001,4-1-4-1,Peter Bankes,Match Report,,11.0,4.0,14.0,0.0,0,0,Fulham,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Away,L,1,4,West Ham,0.6,3.6,48.0,62467.0,Sam Morsy,4-2-3-1,4-1-4-1,Anthony Taylor,Match Report,,9.0,2.0,17.2,0.0,0,0,Ipswich Town,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Home,W,1,0,Bournemouth,0.8,2.1,45.0,31706.0,Jamie Vardy,4-2-3-1,4-2-3-1,Darren Bond,Match Report,,6.0,2.0,18.8,0.0,0,0,Leicester City,2024
+05-10-2024,12:30,Premier League,Matchweek 7,Sat,Away,W,1,0,Crystal Palace,1.4,0.6,68.0,25185.0,Virgil van Dijk,4-2-3-1,03-04-2003,Simon Hooper,Match Report,,16.0,4.0,18.9,0.0,0,0,Liverpool,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Home,W,3,2,Fulham,1.6,2.6,58.0,53017.0,Rúben Dias,4-1-4-1,05-04-2001,Peter Bankes,Match Report,,20.0,7.0,17.6,1.0,0,0,Manchester City,2024
+05-10-2024,17:30,Premier League,Matchweek 7,Sat,Away,D,0,0,Everton,2.1,0.7,67.0,39265.0,Bruno Guimarães,04-03-2003,4-2-3-1,Craig Pawson,Match Report,,13.0,1.0,13.8,0.0,0,1,Newcastle United,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Away,L,1,3,Arsenal,0.6,2.8,41.0,60307.0,Flynn Downes,05-04-2001,04-04-2002,Tony Harrington,Match Report,,8.0,2.0,16.4,0.0,0,0,Southampton,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Home,W,4,1,Ipswich Town,3.6,0.6,52.0,62467.0,Jarrod Bowen,4-1-4-1,4-2-3-1,Anthony Taylor,Match Report,,23.0,12.0,16.4,1.0,0,0,West Ham United,2024
+05-10-2024,15:00,Premier League,Matchweek 7,Sat,Away,L,3,5,Brentford,1.0,4.2,56.0,16960.0,Mario Lemina,4-1-4-1,4-2-3-1,Andy Madley,Match Report,,17.0,6.0,20.9,0.0,0,0,Wolverhampton Wanderers,2024
+05-12-2024,20:15,Premier League,Matchweek 14,Thu,Home,W,1.0,0.0,Tottenham,3.5,0.9,35.0,11234.0,Adam Smith,4-2-3-1,4-3-3,Simon Hooper,Match Report,,21.0,8.0,13.8,0.0,0,0,Bournemouth,2024
+05-12-2024,19:30,Premier League,Matchweek 14,Thu,Away,L,1.0,3.0,Fulham,1.4,1.1,57.0,26368.0,Lewis Dunk,3-4-3,4-2-3-1,Peter Bankes,Match Report,,13.0,3.0,16.7,1.0,0,0,Brighton and Hove Albion,2024
+05-12-2024,19:30,Premier League,Matchweek 14,Thu,Home,W,3,1,Brighton,1.1,1.4,43.0,26368.0,Antonee Robinson,4-2-3-1,3-4-3,Peter Bankes,Match Report,,6.0,2.0,14.3,0.0,0,0,Fulham,2024
+05-12-2024,20:15,Premier League,Matchweek 14,Thu,Away,L,0.0,1.0,Bournemouth,0.9,3.5,65.0,11234.0,James Maddison,4-3-3,4-2-3-1,Simon Hooper,Match Report,,12.0,4.0,17.0,0.0,0,0,Tottenham Hotspur,2024
+06-10-2024,14:00,Premier League,Matchweek 7,Sun,Home,D,0,0,Manchester Utd,0.5,0.6,53.0,42682.0,Emiliano Martínez,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,11.0,1.0,20.3,1.0,0,0,Aston Villa,2024
+06-10-2024,16:30,Premier League,Matchweek 7,Sun,Home,W,3,2,Tottenham,1.8,1.3,41.0,31487.0,Lewis Dunk,4-2-3-1,04-03-2003,David Coote,Match Report,,11.0,4.0,14.8,0.0,0,0,Brighton and Hove Albion,2024
+06-10-2024,14:00,Premier League,Matchweek 7,Sun,Home,D,1,1,Nott'ham Forest,2.3,0.9,65.0,39501.0,Enzo Fernández,4-2-3-1,4-2-3-1,Chris Kavanagh,Match Report,,22.0,8.0,17.2,0.0,0,0,Chelsea,2024
+06-10-2024,14:00,Premier League,Matchweek 7,Sun,Away,D,0,0,Aston Villa,0.6,0.5,47.0,42682.0,Bruno Fernandes,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,10.0,4.0,21.5,1.0,0,0,Manchester United,2024
+06-10-2024,14:00,Premier League,Matchweek 7,Sun,Away,D,1,1,Chelsea,0.9,2.3,35.0,39501.0,Ryan Yates,4-2-3-1,4-2-3-1,Chris Kavanagh,Match Report,,16.0,9.0,20.2,2.0,0,0,Nottingham Forest,2024
+06-10-2024,16:30,Premier League,Matchweek 7,Sun,Away,L,2,3,Brighton,1.3,1.8,59.0,31487.0,Cristian Romero,04-03-2003,4-2-3-1,David Coote,Match Report,,13.0,3.0,16.2,0.0,0,0,Tottenham Hotspur,2024
+07-12-2024,15:00,Premier League,Matchweek 15,Sat,Home,W,1.0,0.0,Southampton,2.3,0.3,47.0,42453.0,John McGinn,4-2-3-1,5-3-2,Darren Bond,Match Report,,18.0,4.0,14.2,0.0,0,0,Aston Villa,2024
+07-12-2024,15:00,Premier League,Matchweek 15,Sat,Home,W,4,2,Newcastle Utd,1.2,1.5,43.0,17078.0,Christian Nørgaard,3-4-3,4-3-3,Simon Hooper,Match Report,,11.0,7.0,17.6,0.0,0,0,Brentford,2024
+07-12-2024,15:00,Premier League,Matchweek 15,Sat,Home,D,2.0,2.0,Manchester City,1.3,1.4,32.0,25142.0,Marc Guéhi,3-4-3,4-2-3-1,Robert Jones,Match Report,,12.0,3.0,19.1,0.0,0,0,Crystal Palace,2024
+07-12-2024,15:00,Premier League,Matchweek 15,Sat,Away,D,2,2,Crystal Palace,1.4,1.3,68.0,25142.0,Kyle Walker,4-2-3-1,3-4-3,Robert Jones,Match Report,,12.0,4.0,15.1,0.0,0,0,Manchester City,2024
+07-12-2024,17:30,Premier League,Matchweek 15,Sat,Home,L,2,3,Nott'ham Forest,1.6,0.8,71.0,73778.0,Bruno Fernandes,3-4-3,4-2-3-1,Darren England,Match Report,,17.0,7.0,18.7,1.0,0,0,Manchester United,2024
+07-12-2024,15:00,Premier League,Matchweek 15,Sat,Away,L,2,4,Brentford,1.5,1.2,57.0,17078.0,Bruno Guimarães,4-3-3,3-4-3,Simon Hooper,Match Report,,16.0,3.0,16.2,0.0,0,0,Newcastle United,2024
+07-12-2024,17:30,Premier League,Matchweek 15,Sat,Away,W,3,2,Manchester Utd,0.8,1.6,29.0,73778.0,Ryan Yates,4-2-3-1,3-4-3,Darren England,Match Report,,11.0,3.0,16.3,0.0,0,0,Nottingham Forest,2024
+07-12-2024,15:00,Premier League,Matchweek 15,Sat,Away,L,0,1,Aston Villa,0.3,2.3,53.0,42453.0,Adam Armstrong,5-3-2,4-2-3-1,Darren Bond,Match Report,,4.0,0.0,14.5,0.0,0,0,Southampton,2024
+08-12-2024,14:00,Premier League,Matchweek 15,Sun,Away,D,1.0,1.0,Fulham,1.8,0.2,66.0,26954.0,Martin Ødegaard,4-3-3,4-2-3-1,Chris Kavanagh,Match Report,,12.0,4.0,12.2,0.0,0,0,Arsenal,2024
+08-12-2024,14:00,Premier League,Matchweek 15,Sun,Away,W,2.0,1.0,Ipswich Town,3.2,1.3,56.0,29180.0,Adam Smith,4-2-3-1,4-2-3-1,Michael Salisbury,Match Report,,22.0,6.0,16.4,0.0,0,0,Bournemouth,2024
+08-12-2024,14:00,Premier League,Matchweek 15,Sun,Away,D,2.0,2.0,Leicester City,1.5,1.3,44.0,31647.0,Lewis Dunk,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,16.0,7.0,19.0,2.0,0,0,Brighton and Hove Albion,2024
+08-12-2024,16:30,Premier League,Matchweek 15,Sun,Away,W,4.0,3.0,Tottenham,2.8,2.8,61.0,61184.0,Enzo Fernández,4-2-3-1,4-3-3,Anthony Taylor,Match Report,,15.0,6.0,17.9,0.0,2,2,Chelsea,2024
+08-12-2024,14:00,Premier League,Matchweek 15,Sun,Home,D,1,1,Arsenal,0.2,1.8,34.0,26954.0,Antonee Robinson,4-2-3-1,4-3-3,Chris Kavanagh,Match Report,,2.0,2.0,14.4,0.0,0,0,Fulham,2024
+08-12-2024,14:00,Premier League,Matchweek 15,Sun,Home,L,1,2,Bournemouth,1.3,3.2,44.0,29180.0,Sam Morsy,4-2-3-1,4-2-3-1,Michael Salisbury,Match Report,,18.0,5.0,18.4,0.0,0,0,Ipswich Town,2024
+08-12-2024,14:00,Premier League,Matchweek 15,Sun,Home,D,2,2,Brighton,1.3,1.5,56.0,31647.0,Jamie Vardy,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,10.0,3.0,14.5,1.0,0,0,Leicester City,2024
+08-12-2024,16:30,Premier League,Matchweek 15,Sun,Home,L,3.0,4.0,Chelsea,2.8,2.8,39.0,61184.0,Son Heung-min,4-3-3,4-2-3-1,Anthony Taylor,Match Report,,13.0,5.0,13.7,1.0,0,0,Tottenham Hotspur,2024
+09-11-2024,20:00,Premier League,Matchweek 11,Sat,Away,L,0,2,Liverpool,1.2,2.0,38.0,60292.0,Emiliano Martínez,4-2-3-1,4-2-3-1,David Coote,Match Report,,12.0,2.0,11.6,0.0,0,0,Aston Villa,2024
+09-11-2024,15:00,Premier League,Matchweek 11,Sat,Away,L,2,3,Brentford,2.6,1.5,49.0,16587.0,Adam Smith,4-2-3-1,04-03-2003,Darren Bond,Match Report,,15.0,3.0,14.8,1.0,0,0,Bournemouth,2024
+09-11-2024,15:00,Premier League,Matchweek 11,Sat,Home,W,3,2,Bournemouth,1.5,2.6,51.0,16587.0,Christian Nørgaard,04-03-2003,4-2-3-1,Darren Bond,Match Report,,12.0,6.0,14.6,0.0,0,0,Brentford,2024
+09-11-2024,17:30,Premier League,Matchweek 11,Sat,Home,W,2,1,Manchester City,2.3,2.1,40.0,31715.0,Danny Welbeck,04-04-2002,4-1-4-1,Samuel Barrott,Match Report,,10.0,4.0,13.5,1.0,0,0,Brighton and Hove Albion,2024
+09-11-2024,15:00,Premier League,Matchweek 11,Sat,Home,L,0,2,Fulham,1.5,1.8,36.0,25142.0,Marc Guéhi,03-04-2003,4-2-3-1,Michael Salisbury,Match Report,,13.0,4.0,17.1,0.0,0,0,Crystal Palace,2024
+09-11-2024,15:00,Premier League,Matchweek 11,Sat,Away,D,0,0,West Ham,1.1,0.8,51.0,62463.0,James Tarkowski,4-2-3-1,4-1-4-1,Stuart Attwell,Match Report,,18.0,4.0,18.2,0.0,0,0,Everton,2024
+09-11-2024,15:00,Premier League,Matchweek 11,Sat,Away,W,2,0,Crystal Palace,1.8,1.5,64.0,25142.0,Bernd Leno,4-2-3-1,03-04-2003,Michael Salisbury,Match Report,,17.0,7.0,17.0,0.0,0,0,Fulham,2024
+09-11-2024,20:00,Premier League,Matchweek 11,Sat,Home,W,2,0,Aston Villa,2.0,1.2,62.0,60292.0,Virgil van Dijk,4-2-3-1,4-2-3-1,David Coote,Match Report,,14.0,5.0,16.1,0.0,0,0,Liverpool,2024
+09-11-2024,17:30,Premier League,Matchweek 11,Sat,Away,L,1,2,Brighton,2.1,2.3,60.0,31715.0,Kyle Walker,4-1-4-1,04-04-2002,Samuel Barrott,Match Report,,15.0,6.0,14.1,0.0,0,0,Manchester City,2024
+09-11-2024,15:00,Premier League,Matchweek 11,Sat,Away,L,0,2,Wolves,0.6,1.3,71.0,31403.0,Jack Stephens,05-04-2001,4-2-3-1,Thomas Bramall,Match Report,,9.0,0.0,20.6,1.0,0,0,Southampton,2024
+09-11-2024,15:00,Premier League,Matchweek 11,Sat,Home,D,0,0,Everton,0.8,1.1,49.0,62463.0,Jarrod Bowen,4-1-4-1,4-2-3-1,Stuart Attwell,Match Report,,11.0,6.0,17.0,0.0,0,0,West Ham United,2024
+09-11-2024,15:00,Premier League,Matchweek 11,Sat,Home,W,2,0,Southampton,1.3,0.6,29.0,31403.0,Mario Lemina,4-2-3-1,05-04-2001,Thomas Bramall,Match Report,,8.0,4.0,23.1,0.0,0,0,Wolverhampton Wanderers,2024
+09-12-2024,20:00,Premier League,Matchweek 15,Mon,Home,W,2.0,1.0,Wolves,1.0,1.4,54.0,62474.0,Jarrod Bowen,4-2-3-1,3-4-3,John Brooks,Match Report,,19.0,4.0,15.8,0.0,0,0,West Ham United,2024
+09-12-2024,20:00,Premier League,Matchweek 15,Mon,Away,L,1.0,2.0,West Ham,1.4,1.0,46.0,62474.0,Mario Lemina,3-4-3,4-2-3-1,John Brooks,Match Report,,19.0,5.0,17.9,0.0,0,0,Wolverhampton Wanderers,2024
+10-11-2024,16:30,Premier League,Matchweek 11,Sun,Away,D,1,1,Chelsea,1.5,1.5,51.0,39780.0,Martin Ødegaard,04-03-2003,4-2-3-1,Michael Oliver,Match Report,,13.0,3.0,16.3,0.0,0,0,Arsenal,2024
+10-11-2024,16:30,Premier League,Matchweek 11,Sun,Home,D,1,1,Arsenal,1.5,1.5,49.0,39780.0,Moisés Caicedo,4-2-3-1,04-03-2003,Michael Oliver,Match Report,,17.0,3.0,20.8,3.0,0,0,Chelsea,2024
+10-11-2024,14:00,Premier League,Matchweek 11,Sun,Away,W,2,1,Tottenham,1.6,1.5,34.0,61505.0,Sam Morsy,4-2-3-1,04-03-2003,Darren England,Match Report,,8.0,3.0,11.4,0.0,0,0,Ipswich Town,2024
+10-11-2024,14:00,Premier League,Matchweek 11,Sun,Away,L,0,3,Manchester Utd,0.6,0.8,49.0,73829.0,Harry Winks,04-03-2003,4-2-3-1,Peter Bankes,Match Report,,6.0,5.0,23.7,0.0,0,0,Leicester City,2024
+10-11-2024,14:00,Premier League,Matchweek 11,Sun,Home,W,3,0,Leicester City,0.8,0.6,51.0,73829.0,Bruno Fernandes,4-2-3-1,04-03-2003,Peter Bankes,Match Report,,13.0,3.0,19.3,0.0,0,0,Manchester United,2024
+10-11-2024,14:00,Premier League,Matchweek 11,Sun,Away,W,3,1,Nott'ham Forest,1.6,0.6,56.0,30145.0,Bruno Guimarães,04-03-2003,4-2-3-1,Anthony Taylor,Match Report,,17.0,6.0,16.1,0.0,0,0,Newcastle United,2024
+10-11-2024,14:00,Premier League,Matchweek 11,Sun,Home,L,1,3,Newcastle Utd,0.6,1.6,44.0,30145.0,Ryan Yates,4-2-3-1,04-03-2003,Anthony Taylor,Match Report,,9.0,3.0,16.4,0.0,0,0,Nottingham Forest,2024
+10-11-2024,14:00,Premier League,Matchweek 11,Sun,Home,L,1,2,Ipswich Town,1.5,1.6,66.0,61505.0,Son Heung-min,04-03-2003,4-2-3-1,Darren England,Match Report,,17.0,5.0,17.8,0.0,0,0,Tottenham Hotspur,2024
+14-09-2024,17:30,Premier League,Matchweek 4,Sat,Home,W,3,2,Everton,2.1,0.9,72.0,41573.0,John McGinn,4-2-3-1,4-2-3-1,Craig Pawson,Match Report,,17.0,7.0,14.0,0.0,0,0,Aston Villa,2024
+14-09-2024,20:00,Premier League,Matchweek 4,Sat,Home,L,0,1,Chelsea,1.7,0.8,34.0,11235.0,Adam Smith,4-2-3-1,4-2-3-1,Anthony Taylor,Match Report,,18.0,6.0,22.4,0.0,0,1,Bournemouth,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Away,L,1,2,Manchester City,1.0,2.1,46.0,52148.0,Christian Nørgaard,05-03-2002,4-2-3-1,Darren Bond,Match Report,,8.0,5.0,12.9,0.0,0,0,Brentford,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Home,D,0,0,Ipswich Town,1.6,0.3,68.0,41573.0,Lewis Dunk,04-04-2002,4-2-3-1,Samuel Barrott,Match Report,,21.0,6.0,18.5,2.0,0,0,Brighton and Hove Albion,2024
+14-09-2024,20:00,Premier League,Matchweek 4,Sat,Away,W,1,0,Bournemouth,0.8,1.7,66.0,11235.0,Moisés Caicedo,4-2-3-1,4-2-3-1,Anthony Taylor,Match Report,,10.0,3.0,18.2,0.0,0,0,Chelsea,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Home,D,2,2,Leicester City,2.5,1.2,66.0,25147.0,Marc Guéhi,03-04-2003,4-2-3-1,Tony Harrington,Match Report,,19.0,3.0,15.4,1.0,1,1,Crystal Palace,2024
+14-09-2024,17:30,Premier League,Matchweek 4,Sat,Away,L,2,3,Aston Villa,0.9,2.1,28.0,41573.0,James Tarkowski,4-2-3-1,4-2-3-1,Craig Pawson,Match Report,,6.0,2.0,12.6,0.0,0,0,Everton,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Home,D,1,1,West Ham,1.5,0.8,54.0,26528.0,Bernd Leno,4-2-3-1,4-2-3-1,Tim Robinson,Match Report,,21.0,5.0,16.4,2.0,0,0,Fulham,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Away,D,0,0,Brighton,0.3,1.6,32.0,41573.0,Sam Morsy,4-2-3-1,04-04-2002,Samuel Barrott,Match Report,,6.0,1.0,16.6,0.0,0,0,Ipswich Town,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Away,D,2,2,Crystal Palace,1.2,2.5,34.0,25147.0,Jamie Vardy,4-2-3-1,03-04-2003,Tony Harrington,Match Report,,9.0,4.0,19.2,0.0,0,0,Leicester City,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Home,L,0,1,Nott'ham Forest,0.9,0.4,68.0,60344.0,Virgil van Dijk,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,14.0,5.0,14.9,0.0,0,0,Liverpool,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Home,W,2,1,Brentford,2.1,1.0,54.0,52148.0,Kyle Walker,4-2-3-1,05-03-2002,Darren Bond,Match Report,,18.0,7.0,17.2,0.0,0,0,Manchester City,2024
+14-09-2024,12:30,Premier League,Matchweek 4,Sat,Away,W,3,0,Southampton,2.6,1.1,56.0,31144.0,Bruno Fernandes,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,20.0,10.0,17.4,0.0,0,0,Manchester United,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Away,W,1,0,Liverpool,0.4,0.9,32.0,60344.0,Ryan Yates,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,5.0,3.0,18.6,0.0,0,0,Nottingham Forest,2024
+14-09-2024,12:30,Premier League,Matchweek 4,Sat,Home,L,0,3,Manchester Utd,1.1,2.6,44.0,31144.0,Jack Stephens,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,5.0,2.0,17.4,0.0,0,1,Southampton,2024
+14-09-2024,15:00,Premier League,Matchweek 4,Sat,Away,D,1,1,Fulham,0.8,1.5,46.0,26528.0,Jarrod Bowen,4-2-3-1,4-2-3-1,Tim Robinson,Match Report,,11.0,3.0,18.0,0.0,0,0,West Ham United,2024
+14-12-2024,15:00,Premier League,Matchweek 16,Sat,Home,D,0.0,0.0,Everton,1.2,0.1,76.0,60176.0,Martin Ødegaard,4-3-3,4-3-3,Craig Pawson,Match Report,,13.0,5.0,13.0,0.0,0,0,Arsenal,2024
+14-12-2024,17:30,Premier League,Matchweek 16,Sat,Away,L,1.0,2.0,Nott'ham Forest,0.4,1.7,50.0,30117.0,John McGinn,4-2-3-1,4-2-3-1,Samuel Barrott,Match Report,,8.0,2.0,15.6,0.0,0,0,Aston Villa,2024
+14-12-2024,15:00,Premier League,Matchweek 16,Sat,Away,D,0,0,Arsenal,0.1,1.2,24.0,60176.0,James Tarkowski,4-3-3,4-3-3,Craig Pawson,Match Report,,2.0,0.0,19.3,0.0,0,0,Everton,2024
+14-12-2024,15:00,Premier League,Matchweek 16,Sat,Away,D,2,2,Liverpool,1.2,2.1,39.0,60333.0,Antonee Robinson,4-2-3-1,4-3-3,Tony Harrington,Match Report,,12.0,3.0,16.9,1.0,0,0,Fulham,2024
+14-12-2024,15:00,Premier League,Matchweek 16,Sat,Away,W,2,1,Wolves,1.1,1.3,46.0,30866.0,Sam Morsy,4-2-3-1,3-4-3,Simon Hooper,Match Report,,10.0,3.0,15.7,0.0,0,0,Ipswich Town,2024
+14-12-2024,15:00,Premier League,Matchweek 16,Sat,Away,L,0,4,Newcastle Utd,0.2,3.8,41.0,52235.0,Jamie Vardy,4-2-3-1,4-3-3,Thomas Bramall,Match Report,,4.0,1.0,16.6,0.0,0,0,Leicester City,2024
+14-12-2024,15:00,Premier League,Matchweek 16,Sat,Home,D,2.0,2.0,Fulham,2.1,1.2,61.0,60333.0,Virgil van Dijk,4-3-3,4-2-3-1,Tony Harrington,Match Report,,16.0,4.0,13.9,0.0,0,0,Liverpool,2024
+14-12-2024,15:00,Premier League,Matchweek 16,Sat,Home,W,4,0,Leicester City,3.8,0.2,59.0,52235.0,Bruno Guimarães,4-3-3,4-2-3-1,Thomas Bramall,Match Report,,27.0,11.0,15.1,1.0,0,0,Newcastle United,2024
+14-12-2024,17:30,Premier League,Matchweek 16,Sat,Home,W,2,1,Aston Villa,1.7,0.4,50.0,30117.0,Ryan Yates,4-2-3-1,4-2-3-1,Samuel Barrott,Match Report,,17.0,6.0,15.2,0.0,0,0,Nottingham Forest,2024
+14-12-2024,15:00,Premier League,Matchweek 16,Sat,Home,L,1.0,2.0,Ipswich Town,1.3,1.1,54.0,30866.0,Nélson Semedo,3-4-3,4-2-3-1,Simon Hooper,Match Report,,16.0,6.0,18.4,0.0,0,0,Wolverhampton Wanderers,2024
+15-09-2024,14:00,Premier League,Matchweek 4,Sun,Away,W,1,0,Tottenham,0.7,0.7,37.0,61645.0,Jorginho,04-04-2002,04-03-2003,Jarred Gillett,Match Report,,7.0,4.0,12.1,0.0,0,0,Arsenal,2024
+15-09-2024,16:30,Premier League,Matchweek 4,Sun,Away,W,2,1,Wolves,1.5,1.2,51.0,30255.0,Bruno Guimarães,04-03-2003,4-4-1-1,Chris Kavanagh,Match Report,,14.0,6.0,17.9,0.0,0,0,Newcastle United,2024
+15-09-2024,14:00,Premier League,Matchweek 4,Sun,Home,L,0,1,Arsenal,0.7,0.7,63.0,61645.0,Son Heung-min,04-03-2003,04-04-2002,Jarred Gillett,Match Report,,15.0,5.0,18.1,0.0,0,0,Tottenham Hotspur,2024
+15-09-2024,16:30,Premier League,Matchweek 4,Sun,Home,L,1,2,Newcastle Utd,1.2,1.5,49.0,30255.0,Mario Lemina,4-4-1-1,04-03-2003,Chris Kavanagh,Match Report,,12.0,5.0,15.2,0.0,0,0,Wolverhampton Wanderers,2024
+15-12-2024,19:00,Premier League,Matchweek 16,Sun,Away,L,1,2,Chelsea,1.6,2.2,38.0,39571.0,Christian Nørgaard,3-5-2,4-2-3-1,Peter Bankes,Match Report,,9.0,4.0,11.9,0.0,0,0,Brentford,2024
+15-12-2024,14:00,Premier League,Matchweek 16,Sun,Home,L,1.0,3.0,Crystal Palace,1.0,2.2,64.0,30893.0,Lewis Dunk,4-2-3-1,3-4-3,Michael Oliver,Match Report,,17.0,5.0,20.6,1.0,0,0,Brighton and Hove Albion,2024
+15-12-2024,19:00,Premier League,Matchweek 16,Sun,Home,W,2.0,1.0,Brentford,2.2,1.6,62.0,39571.0,Enzo Fernández,4-2-3-1,3-5-2,Peter Bankes,Match Report,,26.0,8.0,16.2,0.0,0,0,Chelsea,2024
+15-12-2024,14:00,Premier League,Matchweek 16,Sun,Away,W,3.0,1.0,Brighton,2.2,1.0,36.0,30893.0,Marc Guéhi,3-4-3,4-2-3-1,Michael Oliver,Match Report,,13.0,5.0,12.6,0.0,0,0,Crystal Palace,2024
+15-12-2024,16:30,Premier League,Matchweek 16,Sun,Home,L,1,2,Manchester Utd,0.9,2.1,52.0,53184.0,Kyle Walker,4-1-4-1,3-4-3,Anthony Taylor,Match Report,,10.0,3.0,18.7,0.0,0,0,Manchester City,2024
+15-12-2024,16:30,Premier League,Matchweek 16,Sun,Away,W,2,1,Manchester City,2.1,0.9,48.0,53184.0,Bruno Fernandes,3-4-3,4-1-4-1,Anthony Taylor,Match Report,,9.0,2.0,17.9,0.0,1,1,Manchester United,2024
+15-12-2024,19:00,Premier League,Matchweek 16,Sun,Home,L,0,5,Tottenham,0.8,2.3,42.0,31090.0,Adam Armstrong,4-3-1-2,4-2-3-1,Darren England,Match Report,,9.0,3.0,18.1,0.0,0,0,Southampton,2024
+15-12-2024,19:00,Premier League,Matchweek 16,Sun,Away,W,5.0,0.0,Southampton,2.3,0.8,58.0,31090.0,Son Heung-min,4-2-3-1,4-3-1-2,Darren England,Match Report,,18.0,9.0,13.1,0.0,0,0,Tottenham Hotspur,2024
+16-08-2024,20:00,Premier League,Matchweek 1,Fri,Away,L,0,1,Manchester Utd,0.4,2.4,45.0,73297.0,Bernd Leno,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,10.0,2.0,16.9,0.0,0,0,Fulham,2024
+16-08-2024,20:00,Premier League,Matchweek 1,Fri,Home,W,1,0,Fulham,2.4,0.4,55.0,73297.0,Bruno Fernandes,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,14.0,5.0,17.6,0.0,0,0,Manchester United,2024
+16-12-2024,20:00,Premier League,Matchweek 16,Mon,Home,D,1.0,1.0,West Ham,1.9,2.1,52.0,11204.0,Adam Smith,4-2-3-1,4-1-4-1,Chris Kavanagh,Match Report,,29.0,9.0,18.3,1.0,0,0,Bournemouth,2024
+16-12-2024,20:00,Premier League,Matchweek 16,Mon,Away,D,1.0,1.0,Bournemouth,2.1,1.9,48.0,11204.0,Jarrod Bowen,4-1-4-1,4-2-3-1,Chris Kavanagh,Match Report,,15.0,2.0,15.2,0.0,1,1,West Ham United,2024
+17-08-2024,15:00,Premier League,Matchweek 1,Sat,Home,W,2,0,Wolves,1.2,0.5,53.0,60261.0,Martin Ødegaard,04-03-2003,4-2-3-1,Jarred Gillett,Match Report,,18.0,6.0,17.3,0.0,0,0,Arsenal,2024
+17-08-2024,17:30,Premier League,Matchweek 1,Sat,Away,W,2,1,West Ham,2.0,2.3,48.0,62463.0,John McGinn,4-2-3-1,4-1-4-1,Tony Harrington,Match Report,,15.0,3.0,15.2,0.0,0,0,Aston Villa,2024
+17-08-2024,15:00,Premier League,Matchweek 1,Sat,Away,D,1,1,Nott'ham Forest,1.2,1.3,47.0,29763.0,Neto,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,13.0,4.0,19.6,1.0,0,0,Bournemouth,2024
+17-08-2024,15:00,Premier League,Matchweek 1,Sat,Away,W,3,0,Everton,1.4,0.5,60.0,39217.0,Lewis Dunk,4-2-3-1,4-2-3-1,Simon Hooper,Match Report,,10.0,5.0,13.8,0.0,0,0,Brighton and Hove Albion,2024
+17-08-2024,15:00,Premier League,Matchweek 1,Sat,Home,L,0,3,Brighton,0.5,1.4,40.0,39217.0,James Tarkowski,4-2-3-1,4-2-3-1,Simon Hooper,Match Report,,9.0,1.0,18.4,0.0,0,0,Everton,2024
+17-08-2024,12:30,Premier League,Matchweek 1,Sat,Home,L,0,2,Liverpool,0.5,2.6,38.0,30014.0,Sam Morsy,4-2-3-1,4-2-3-1,Tim Robinson,Match Report,,7.0,2.0,16.0,0.0,0,0,Ipswich Town,2024
+17-08-2024,12:30,Premier League,Matchweek 1,Sat,Away,W,2,0,Ipswich Town,2.6,0.5,62.0,30014.0,Virgil van Dijk,4-2-3-1,4-2-3-1,Tim Robinson,Match Report,,18.0,5.0,14.8,0.0,0,0,Liverpool,2024
+17-08-2024,15:00,Premier League,Matchweek 1,Sat,Home,W,1,0,Southampton,0.3,1.8,23.0,52196.0,Bruno Guimarães,04-03-2003,03-05-2002,Craig Pawson,Match Report,,3.0,1.0,13.2,0.0,0,0,Newcastle United,2024
+17-08-2024,15:00,Premier League,Matchweek 1,Sat,Home,D,1,1,Bournemouth,1.3,1.2,53.0,29763.0,Morgan Gibbs-White,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,14.0,8.0,19.2,0.0,0,0,Nottingham Forest,2024
+17-08-2024,15:00,Premier League,Matchweek 1,Sat,Away,L,0,1,Newcastle Utd,1.8,0.3,77.0,52196.0,Jack Stephens,03-05-2002,04-03-2003,Craig Pawson,Match Report,,19.0,3.0,17.0,1.0,0,0,Southampton,2024
+17-08-2024,17:30,Premier League,Matchweek 1,Sat,Home,L,1,2,Aston Villa,2.3,2.0,52.0,62463.0,Jarrod Bowen,4-1-4-1,4-2-3-1,Tony Harrington,Match Report,,13.0,2.0,13.6,0.0,1,1,West Ham United,2024
+17-08-2024,15:00,Premier League,Matchweek 1,Sat,Away,L,0,2,Arsenal,0.5,1.2,47.0,60261.0,Mario Lemina,4-2-3-1,04-03-2003,Jarred Gillett,Match Report,,9.0,3.0,19.3,1.0,0,0,Wolverhampton Wanderers,2024
+18-08-2024,14:00,Premier League,Matchweek 1,Sun,Home,W,2,1,Crystal Palace,1.6,1.2,46.0,16988.0,Christian Nørgaard,04-03-2003,03-04-2003,Samuel Barrott,Match Report,,9.0,5.0,12.5,0.0,0,0,Brentford,2024
+18-08-2024,16:30,Premier League,Matchweek 1,Sun,Home,L,0,2,Manchester City,1.0,0.8,48.0,39818.0,Enzo Fernández,4-2-3-1,3-2-4-1,Anthony Taylor,Match Report,,10.0,3.0,17.1,0.0,0,0,Chelsea,2024
+18-08-2024,14:00,Premier League,Matchweek 1,Sun,Away,L,1,2,Brentford,1.2,1.6,54.0,16988.0,Marc Guéhi,03-04-2003,04-03-2003,Samuel Barrott,Match Report,,14.0,6.0,19.2,1.0,0,0,Crystal Palace,2024
+18-08-2024,16:30,Premier League,Matchweek 1,Sun,Away,W,2,0,Chelsea,0.8,1.0,52.0,39818.0,Kevin De Bruyne,3-2-4-1,4-2-3-1,Anthony Taylor,Match Report,,11.0,5.0,19.1,0.0,0,0,Manchester City,2024
+19-08-2024,20:00,Premier League,Matchweek 1,Mon,Home,D,1,1,Tottenham,1.0,1.2,30.0,31977.0,Jamie Vardy,4-2-3-1,04-03-2003,Chris Kavanagh,Match Report,,7.0,3.0,16.4,0.0,0,0,Leicester City,2024
+19-08-2024,20:00,Premier League,Matchweek 1,Mon,Away,D,1,1,Leicester City,1.2,1.0,70.0,31977.0,Son Heung-min,04-03-2003,4-2-3-1,Chris Kavanagh,Match Report,,15.0,6.0,13.7,0.0,0,0,Tottenham Hotspur,2024
+19-10-2024,17:30,Premier League,Matchweek 8,Sat,Away,L,0,2,Bournemouth,0.7,1.8,51.0,11235.0,Gabriel Magalhães,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,6.0,1.0,15.1,0.0,0,0,Arsenal,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Away,W,3,1,Fulham,1.6,1.8,48.0,26743.0,Emiliano Martínez,4-2-3-1,4-2-3-1,Darren England,Match Report,,14.0,5.0,15.1,1.0,0,0,Aston Villa,2024
+19-10-2024,17:30,Premier League,Matchweek 8,Sat,Home,W,2,0,Arsenal,1.8,0.7,49.0,11235.0,Lewis Cook,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,12.0,3.0,18.9,0.0,1,1,Bournemouth,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Away,L,1,2,Manchester Utd,0.9,1.3,50.0,73738.0,Christian Nørgaard,4-2-3-1,4-2-3-1,Samuel Barrott,Match Report,,8.0,2.0,17.9,1.0,0,0,Brentford,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Away,W,1,0,Newcastle Utd,1.1,2.0,40.0,52220.0,Lewis Dunk,04-04-2002,04-03-2003,Peter Bankes,Match Report,,10.0,5.0,16.0,0.0,0,0,Brighton and Hove Albion,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Away,W,2,0,Ipswich Town,1.7,1.3,45.0,29862.0,James Tarkowski,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,11.0,8.0,16.4,1.0,0,0,Everton,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Home,L,1,3,Aston Villa,1.8,1.6,52.0,26743.0,Bernd Leno,4-2-3-1,4-2-3-1,Darren England,Match Report,,9.0,3.0,12.3,0.0,0,1,Fulham,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Home,L,0,2,Everton,1.3,1.7,55.0,29862.0,Sam Morsy,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,13.0,2.0,16.6,2.0,0,0,Ipswich Town,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Away,W,3,2,Southampton,3.1,2.1,58.0,31145.0,Jamie Vardy,4-2-3-1,04-05-2001,Anthony Taylor,Match Report,,17.0,3.0,16.5,0.0,1,1,Leicester City,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Home,W,2,1,Brentford,1.3,0.9,50.0,73738.0,Bruno Fernandes,4-2-3-1,4-2-3-1,Samuel Barrott,Match Report,,23.0,11.0,18.7,0.0,0,0,Manchester United,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Home,L,0,1,Brighton,2.0,1.1,60.0,52220.0,Bruno Guimarães,04-03-2003,04-04-2002,Peter Bankes,Match Report,,21.0,6.0,17.3,2.0,0,0,Newcastle United,2024
+19-10-2024,15:00,Premier League,Matchweek 8,Sat,Home,L,2,3,Leicester City,2.1,3.1,42.0,31145.0,Flynn Downes,04-05-2001,4-2-3-1,Anthony Taylor,Match Report,,14.0,7.0,9.6,0.0,0,0,Southampton,2024
+19-10-2024,12:30,Premier League,Matchweek 8,Sat,Home,W,4,1,West Ham,1.9,0.8,57.0,61381.0,Son Heung-min,04-03-2003,4-1-4-1,Andy Madley,Match Report,,22.0,7.0,15.8,0.0,0,0,Tottenham Hotspur,2024
+19-10-2024,12:30,Premier League,Matchweek 8,Sat,Away,L,1,4,Tottenham,0.8,1.9,43.0,61381.0,Jarrod Bowen,4-1-4-1,04-03-2003,Andy Madley,Match Report,,11.0,3.0,16.9,0.0,0,0,West Ham United,2024
+20-10-2024,16:30,Premier League,Matchweek 8,Sun,Away,L,1,2,Liverpool,1.0,1.9,57.0,60277.0,Reece James,4-2-3-1,4-2-3-1,John Brooks,Match Report,,12.0,2.0,16.1,1.0,0,0,Chelsea,2024
+20-10-2024,16:30,Premier League,Matchweek 8,Sun,Home,W,2,1,Chelsea,1.9,1.0,43.0,60277.0,Virgil van Dijk,4-2-3-1,4-2-3-1,John Brooks,Match Report,,8.0,4.0,22.7,1.0,1,1,Liverpool,2024
+20-10-2024,14:00,Premier League,Matchweek 8,Sun,Away,W,2,1,Wolves,1.6,0.8,77.0,31319.0,Rúben Dias,4-1-4-1,03-05-2002,Chris Kavanagh,Match Report,,22.0,7.0,18.3,2.0,0,0,Manchester City,2024
+20-10-2024,14:00,Premier League,Matchweek 8,Sun,Home,L,1,2,Manchester City,0.8,1.6,23.0,31319.0,Mario Lemina,03-05-2002,4-1-4-1,Chris Kavanagh,Match Report,,3.0,2.0,17.6,0.0,0,0,Wolverhampton Wanderers,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Home,W,3,1,Wolves,1.7,0.5,53.0,39978.0,John McGinn,4-2-3-1,4-1-4-1,Tim Robinson,Match Report,,9.0,3.0,13.7,1.0,0,0,Aston Villa,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Away,L,0,3,Liverpool,1.1,2.0,42.0,60347.0,Lewis Cook,4-2-3-1,4-2-3-1,Tony Harrington,Match Report,,19.0,6.0,18.7,1.0,0,0,Bournemouth,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Away,L,1,3,Tottenham,0.8,3.5,52.0,61246.0,Vitaly Janelt,05-03-2002,04-03-2003,John Brooks,Match Report,,6.0,6.0,14.4,0.0,0,0,Brentford,2024
+21-09-2024,12:30,Premier League,Matchweek 5,Sat,Away,W,3,0,West Ham,2.2,0.9,47.0,62473.0,Enzo Fernández,4-2-3-1,03-04-2003,Samuel Barrott,Match Report,,12.0,5.0,15.0,0.0,0,0,Chelsea,2024
+21-09-2024,17:30,Premier League,Matchweek 5,Sat,Home,D,0,0,Manchester Utd,1.0,1.6,33.0,25172.0,Marc Guéhi,03-04-2003,4-2-3-1,David Coote,Match Report,,9.0,4.0,14.6,0.0,0,0,Crystal Palace,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Away,D,1,1,Leicester City,1.1,0.7,42.0,31765.0,James Tarkowski,4-2-3-1,4-2-3-1,Darren England,Match Report,,17.0,5.0,17.7,1.0,0,0,Everton,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Home,W,3,1,Newcastle Utd,2.2,1.5,39.0,25700.0,Bernd Leno,4-2-3-1,04-03-2003,Peter Bankes,Match Report,,22.0,11.0,15.4,0.0,0,0,Fulham,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Away,D,1,1,Southampton,1.6,2.4,47.0,31117.0,Sam Morsy,4-2-3-1,4-2-3-1,Samuel Allison,Match Report,,13.0,6.0,14.1,0.0,0,0,Ipswich Town,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Home,D,1,1,Everton,0.7,1.1,58.0,31765.0,Jamie Vardy,4-2-3-1,4-2-3-1,Darren England,Match Report,,12.0,2.0,16.0,0.0,0,0,Leicester City,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Home,W,3,0,Bournemouth,2.0,1.1,58.0,60347.0,Virgil van Dijk,4-2-3-1,4-2-3-1,Tony Harrington,Match Report,,19.0,12.0,16.6,0.0,0,0,Liverpool,2024
+21-09-2024,17:30,Premier League,Matchweek 5,Sat,Away,D,0,0,Crystal Palace,1.6,1.0,67.0,25172.0,Bruno Fernandes,4-2-3-1,03-04-2003,David Coote,Match Report,,15.0,6.0,13.9,0.0,0,0,Manchester United,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Away,L,1,3,Fulham,1.5,2.2,61.0,25700.0,Bruno Guimarães,04-03-2003,4-2-3-1,Peter Bankes,Match Report,,16.0,5.0,16.9,1.0,0,0,Newcastle United,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Home,D,1,1,Ipswich Town,2.4,1.6,53.0,31117.0,Flynn Downes,4-2-3-1,4-2-3-1,Samuel Allison,Match Report,,11.0,3.0,13.7,0.0,0,0,Southampton,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Home,W,3,1,Brentford,3.5,0.8,48.0,61246.0,Son Heung-min,04-03-2003,05-03-2002,John Brooks,Match Report,,23.0,9.0,14.4,0.0,0,0,Tottenham Hotspur,2024
+21-09-2024,12:30,Premier League,Matchweek 5,Sat,Home,L,0,3,Chelsea,0.9,2.2,53.0,62473.0,Jarrod Bowen,03-04-2003,4-2-3-1,Samuel Barrott,Match Report,,15.0,7.0,18.0,1.0,0,0,West Ham United,2024
+21-09-2024,15:00,Premier League,Matchweek 5,Sat,Away,L,1,3,Aston Villa,0.5,1.7,47.0,39978.0,Mario Lemina,4-1-4-1,4-2-3-1,Tim Robinson,Match Report,,10.0,4.0,14.9,0.0,0,0,Wolverhampton Wanderers,2024
+21-10-2024,20:00,Premier League,Matchweek 8,Mon,Away,L,0,1,Nott'ham Forest,1.0,1.7,49.0,29443.0,Marc Guéhi,3-1-4-2,4-2-3-1,Tim Robinson,Match Report,,20.0,7.0,21.1,0.0,0,0,Crystal Palace,2024
+21-10-2024,20:00,Premier League,Matchweek 8,Mon,Home,W,1,0,Crystal Palace,1.7,1.0,51.0,29443.0,Ryan Yates,4-2-3-1,3-1-4-2,Tim Robinson,Match Report,,20.0,6.0,18.0,0.0,0,0,Nottingham Forest,2024
+21-12-2024,17:30,Premier League,Matchweek 17,Sat,Away,W,5.0,1.0,Crystal Palace,2.5,1.6,58.0,25167.0,Martin Ødegaard,4-3-3,3-4-3,Simon Hooper,Match Report,,14.0,6.0,11.5,0.0,0,0,Arsenal,2024
+21-12-2024,12:30,Premier League,Matchweek 17,Sat,Home,W,2.0,1.0,Manchester City,1.6,1.0,44.0,42345.0,John McGinn,4-2-3-1,4-2-3-1,Peter Bankes,Match Report,,11.0,6.0,13.9,0.0,0,0,Aston Villa,2024
+21-12-2024,15:00,Premier League,Matchweek 17,Sat,Home,L,0,2,Nott'ham Forest,0.7,0.9,64.0,17115.0,Christian Nørgaard,4-3-3,3-4-3,Michael Oliver,Match Report,,7.0,3.0,10.8,0.0,0,0,Brentford,2024
+21-12-2024,15:00,Premier League,Matchweek 17,Sat,Away,D,1.0,1.0,West Ham,0.9,1.2,53.0,,Lewis Dunk,4-2-3-1,4-1-4-1,Robert Jones,Match Report,,12.0,6.0,15.0,0.0,0,0,Brighton and Hove Albion,2024
+21-12-2024,17:30,Premier League,Matchweek 17,Sat,Home,L,1.0,5.0,Arsenal,1.6,2.5,42.0,25167.0,Marc Guéhi,3-4-3,4-3-3,Simon Hooper,Match Report,,15.0,6.0,16.3,0.0,0,0,Crystal Palace,2024
+21-12-2024,15:00,Premier League,Matchweek 17,Sat,Home,L,0,4,Newcastle Utd,0.7,2.3,42.0,29774.0,Sam Morsy,4-2-3-1,4-3-3,Stuart Attwell,Match Report,,10.0,2.0,17.8,0.0,0,0,Ipswich Town,2024
+21-12-2024,12:30,Premier League,Matchweek 17,Sat,Away,L,1,2,Aston Villa,1.0,1.6,56.0,42345.0,Bernardo Silva,4-2-3-1,4-2-3-1,Peter Bankes,Match Report,,12.0,6.0,18.4,0.0,0,0,Manchester City,2024
+21-12-2024,15:00,Premier League,Matchweek 17,Sat,Away,W,4,0,Ipswich Town,2.3,0.7,58.0,29774.0,Bruno Guimarães,4-3-3,4-2-3-1,Stuart Attwell,Match Report,,15.0,7.0,14.1,0.0,0,0,Newcastle United,2024
+21-12-2024,15:00,Premier League,Matchweek 17,Sat,Away,W,2,0,Brentford,0.9,0.7,36.0,17115.0,Morgan Gibbs-White,3-4-3,4-3-3,Michael Oliver,Match Report,,10.0,6.0,17.4,0.0,0,0,Nottingham Forest,2024
+21-12-2024,15:00,Premier League,Matchweek 17,Sat,Home,D,1.0,1.0,Brighton,1.2,0.9,47.0,,Jarrod Bowen,4-1-4-1,4-2-3-1,Robert Jones,Match Report,,11.0,4.0,13.7,0.0,0,0,West Ham United,2024
+22-09-2024,16:30,Premier League,Matchweek 5,Sun,Away,D,2,2,Manchester City,0.7,2.1,23.0,52846.0,Bukayo Saka,04-04-2002,04-03-2003,Michael Oliver,Match Report,,5.0,3.0,11.3,0.0,0,0,Arsenal,2024
+22-09-2024,14:00,Premier League,Matchweek 5,Sun,Home,D,2,2,Nott'ham Forest,1.0,1.4,70.0,31444.0,Lewis Dunk,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,14.0,3.0,17.4,1.0,0,0,Brighton and Hove Albion,2024
+22-09-2024,16:30,Premier League,Matchweek 5,Sun,Home,D,2,2,Arsenal,2.1,0.7,77.0,52846.0,Kyle Walker,04-03-2003,04-04-2002,Michael Oliver,Match Report,,33.0,11.0,20.2,1.0,0,0,Manchester City,2024
+22-09-2024,14:00,Premier League,Matchweek 5,Sun,Away,D,2,2,Brighton,1.4,1.0,30.0,31444.0,Morgan Gibbs-White,4-2-3-1,4-2-3-1,Robert Jones,Match Report,,3.0,2.0,17.4,0.0,1,1,Nottingham Forest,2024
+22-12-2024,14:00,Premier League,Matchweek 17,Sun,Away,W,3.0,0.0,Manchester Utd,1.6,2.2,40.0,73720.0,Adam Smith,4-2-3-1,3-4-3,Craig Pawson,Match Report,,9.0,4.0,19.7,0.0,1,1,Bournemouth,2024
+22-12-2024,14:00,Premier League,Matchweek 17,Sun,Away,D,0.0,0.0,Everton,1.2,1.0,75.0,39358.0,Enzo Fernández,4-2-3-1,4-3-3,Chris Kavanagh,Match Report,,12.0,4.0,16.8,2.0,0,0,Chelsea,2024
+22-12-2024,14:00,Premier League,Matchweek 17,Sun,Home,D,0,0,Chelsea,1.0,1.2,25.0,39358.0,James Tarkowski,4-3-3,4-2-3-1,Chris Kavanagh,Match Report,,5.0,4.0,19.8,1.0,0,0,Everton,2024
+22-12-2024,14:00,Premier League,Matchweek 17,Sun,Home,D,0,0,Southampton,0.9,0.3,57.0,26819.0,Tom Cairney,4-2-3-1,3-4-1-2,Tim Robinson,Match Report,,15.0,5.0,20.0,0.0,0,0,Fulham,2024
+22-12-2024,14:00,Premier League,Matchweek 17,Sun,Home,L,0,3,Wolves,0.8,1.1,54.0,31818.0,Jamie Vardy,4-2-3-1,3-4-3,Anthony Taylor,Match Report,,9.0,4.0,15.7,0.0,0,0,Leicester City,2024
+22-12-2024,16:30,Premier League,Matchweek 17,Sun,Away,W,6.0,3.0,Tottenham,5.6,1.3,48.0,61439.0,Virgil van Dijk,4-2-3-1,4-2-3-1,Samuel Barrott,Match Report,,24.0,11.0,13.3,0.0,0,0,Liverpool,2024
+22-12-2024,14:00,Premier League,Matchweek 17,Sun,Home,L,0,3,Bournemouth,2.2,1.6,60.0,73720.0,Bruno Fernandes,3-4-3,4-2-3-1,Craig Pawson,Match Report,,23.0,7.0,17.7,1.0,0,0,Manchester United,2024
+22-12-2024,14:00,Premier League,Matchweek 17,Sun,Away,D,0,0,Fulham,0.3,0.9,43.0,26819.0,Jan Bednarek,3-4-1-2,4-2-3-1,Tim Robinson,Match Report,,5.0,1.0,20.1,1.0,0,0,Southampton,2024
+22-12-2024,16:30,Premier League,Matchweek 17,Sun,Home,L,3.0,6.0,Liverpool,1.3,5.6,52.0,61439.0,Son Heung-min,4-2-3-1,4-2-3-1,Samuel Barrott,Match Report,,9.0,5.0,17.1,0.0,0,0,Tottenham Hotspur,2024
+22-12-2024,14:00,Premier League,Matchweek 17,Sun,Away,W,3.0,0.0,Leicester City,1.1,0.8,46.0,31818.0,Nélson Semedo,3-4-3,4-2-3-1,Anthony Taylor,Match Report,,8.0,4.0,14.6,1.0,0,0,Wolverhampton Wanderers,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Home,W,3,0,Nott'ham Forest,1.2,0.3,66.0,60298.0,Martin Ødegaard,04-03-2003,4-2-3-1,Simon Hooper,Match Report,,19.0,6.0,17.7,0.0,0,0,Arsenal,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Home,D,2,2,Crystal Palace,3.0,1.3,69.0,42175.0,John McGinn,4-2-3-1,03-04-2003,Tim Robinson,Match Report,,16.0,4.0,14.9,0.0,0,1,Aston Villa,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Home,L,1,2,Brighton,1.6,0.9,55.0,11196.0,Adam Smith,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,19.0,5.0,15.5,0.0,0,0,Bournemouth,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Away,D,0,0,Everton,1.1,1.2,41.0,38915.0,Christian Nørgaard,04-03-2003,4-2-3-1,Chris Kavanagh,Match Report,,9.0,2.0,18.4,0.0,0,0,Brentford,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Away,W,2,1,Bournemouth,0.9,1.6,45.0,11196.0,Danny Welbeck,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,6.0,4.0,13.9,0.0,0,0,Brighton and Hove Albion,2024
+23-11-2024,12:30,Premier League,Matchweek 12,Sat,Away,W,2,1,Leicester City,2.7,1.1,63.0,31880.0,Enzo Fernández,4-2-3-1,4-4-1-1,Andy Madley,Match Report,,16.0,6.0,14.2,0.0,0,0,Chelsea,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Away,D,2,2,Aston Villa,1.3,3.0,31.0,42175.0,Marc Guéhi,03-04-2003,4-2-3-1,Tim Robinson,Match Report,,13.0,6.0,18.3,1.0,0,0,Crystal Palace,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Home,D,0,0,Brentford,1.2,1.1,59.0,38915.0,James Tarkowski,4-2-3-1,04-03-2003,Chris Kavanagh,Match Report,,27.0,5.0,19.9,0.0,0,0,Everton,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Home,L,1,4,Wolves,1.0,1.3,59.0,26685.0,Bernd Leno,4-2-3-1,03-04-2003,Robert Jones,Match Report,,10.0,3.0,17.2,0.0,0,0,Fulham,2024
+23-11-2024,12:30,Premier League,Matchweek 12,Sat,Home,L,1,2,Chelsea,1.1,2.7,37.0,31880.0,Jamie Vardy,4-4-1-1,4-2-3-1,Andy Madley,Match Report,,3.0,0.0,18.8,0.0,1,1,Leicester City,2024
+23-11-2024,17:30,Premier League,Matchweek 12,Sat,Home,L,0,4,Tottenham,2.1,2.5,58.0,52478.0,Kyle Walker,04-03-2003,04-03-2003,John Brooks,Match Report,,23.0,5.0,14.4,0.0,0,0,Manchester City,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Away,L,0,3,Arsenal,0.3,1.2,34.0,60298.0,Ryan Yates,4-2-3-1,04-03-2003,Simon Hooper,Match Report,,7.0,0.0,16.3,1.0,0,0,Nottingham Forest,2024
+23-11-2024,17:30,Premier League,Matchweek 12,Sat,Away,W,4,0,Manchester City,2.5,2.1,42.0,52478.0,Son Heung-min,04-03-2003,04-03-2003,John Brooks,Match Report,,9.0,7.0,13.0,0.0,0,0,Tottenham Hotspur,2024
+23-11-2024,15:00,Premier League,Matchweek 12,Sat,Away,W,4,1,Fulham,1.3,1.0,41.0,26685.0,Mario Lemina,03-04-2003,4-2-3-1,Robert Jones,Match Report,,10.0,5.0,16.5,0.0,0,0,Wolverhampton Wanderers,2024
+24-08-2024,17:30,Premier League,Matchweek 2,Sat,Away,W,2,0,Aston Villa,0.9,1.2,60.0,41587.0,Martin Ødegaard,04-03-2003,04-04-2002,Michael Oliver,Match Report,,9.0,4.0,18.8,0.0,0,0,Arsenal,2024
+24-08-2024,17:30,Premier League,Matchweek 2,Sat,Home,L,0,2,Arsenal,1.2,0.9,40.0,41587.0,John McGinn,04-04-2002,04-03-2003,Michael Oliver,Match Report,,11.0,3.0,16.0,0.0,0,0,Aston Villa,2024
+24-08-2024,12:30,Premier League,Matchweek 2,Sat,Home,W,2,1,Manchester Utd,2.1,1.4,48.0,31537.0,Lewis Dunk,4-2-3-1,4-2-3-1,Craig Pawson,Match Report,,14.0,4.0,14.2,1.0,0,0,Brighton and Hove Albion,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Home,L,0,2,West Ham,1.3,1.4,58.0,25099.0,Marc Guéhi,03-04-2003,4-1-4-1,Robert Jones,Match Report,,14.0,2.0,19.5,0.0,0,0,Crystal Palace,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Away,L,0,4,Tottenham,1.0,2.4,30.0,61357.0,James Tarkowski,4-2-3-1,04-03-2003,Anthony Taylor,Match Report,,10.0,1.0,10.0,0.0,0,0,Everton,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Home,W,2,1,Leicester City,1.8,0.6,54.0,25401.0,Bernd Leno,4-2-3-1,4-2-3-1,Darren Bond,Match Report,,18.0,6.0,15.8,1.0,0,0,Fulham,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Away,L,1,4,Manchester City,0.3,3.3,25.0,53147.0,Sam Morsy,05-04-2001,3-2-4-1,Samuel Allison,Match Report,,1.0,1.0,21.1,0.0,0,0,Ipswich Town,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Away,L,1,2,Fulham,0.6,1.8,46.0,25401.0,Jamie Vardy,4-2-3-1,4-2-3-1,Darren Bond,Match Report,,10.0,4.0,22.5,1.0,0,0,Leicester City,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Home,W,4,1,Ipswich Town,3.3,0.3,75.0,53147.0,Kevin De Bruyne,3-2-4-1,05-04-2001,Samuel Allison,Match Report,,13.0,4.0,17.8,1.0,1,1,Manchester City,2024
+24-08-2024,12:30,Premier League,Matchweek 2,Sat,Away,L,1,2,Brighton,1.4,2.1,52.0,31537.0,Bruno Fernandes,4-2-3-1,4-2-3-1,Craig Pawson,Match Report,,11.0,3.0,16.3,0.0,0,0,Manchester United,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Away,W,1,0,Southampton,2.2,0.1,36.0,31150.0,Morgan Gibbs-White,4-2-3-1,03-05-2002,Samuel Barrott,Match Report,,23.0,8.0,17.2,0.0,0,0,Nottingham Forest,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Home,L,0,1,Nott'ham Forest,0.1,2.2,64.0,31150.0,Jack Stephens,03-05-2002,4-2-3-1,Samuel Barrott,Match Report,,5.0,1.0,19.7,0.0,0,0,Southampton,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Home,W,4,0,Everton,2.4,1.0,70.0,61357.0,Son Heung-min,04-03-2003,4-2-3-1,Anthony Taylor,Match Report,,13.0,7.0,14.1,1.0,0,0,Tottenham Hotspur,2024
+24-08-2024,15:00,Premier League,Matchweek 2,Sat,Away,W,2,0,Crystal Palace,1.4,1.3,42.0,25099.0,Jarrod Bowen,4-1-4-1,03-04-2003,Robert Jones,Match Report,,18.0,3.0,17.2,0.0,0,0,West Ham United,2024
+24-11-2024,16:30,Premier League,Matchweek 12,Sun,Home,D,1,1,Manchester Utd,1.6,0.8,40.0,30017.0,Sam Morsy,4-2-3-1,03-04-2003,Anthony Taylor,Match Report,,11.0,6.0,19.5,1.0,0,0,Ipswich Town,2024
+24-11-2024,14:00,Premier League,Matchweek 12,Sun,Away,W,3,2,Southampton,3.1,1.3,62.0,31278.0,Virgil van Dijk,4-2-3-1,05-04-2001,Samuel Barrott,Match Report,,26.0,10.0,18.2,1.0,1,1,Liverpool,2024
+24-11-2024,16:30,Premier League,Matchweek 12,Sun,Away,D,1,1,Ipswich Town,0.8,1.6,60.0,30017.0,Bruno Fernandes,03-04-2003,4-2-3-1,Anthony Taylor,Match Report,,11.0,4.0,17.6,1.0,0,0,Manchester United,2024
+24-11-2024,14:00,Premier League,Matchweek 12,Sun,Home,L,2,3,Liverpool,1.3,3.1,38.0,31278.0,Jack Stephens,05-04-2001,4-2-3-1,Samuel Barrott,Match Report,,6.0,4.0,19.0,0.0,0,1,Southampton,2024
+25-08-2024,14:00,Premier League,Matchweek 2,Sun,Home,D,1,1,Newcastle Utd,2.2,1.6,39.0,11161.0,Neto,4-2-3-1,04-03-2003,David Coote,Match Report,,16.0,4.0,16.5,1.0,0,0,Bournemouth,2024
+25-08-2024,16:30,Premier League,Matchweek 2,Sun,Away,L,0,2,Liverpool,0.5,2.5,38.0,60017.0,Christian Nørgaard,04-04-2002,4-2-3-1,Stuart Attwell,Match Report,,8.0,2.0,18.1,0.0,0,0,Brentford,2024
+25-08-2024,14:00,Premier League,Matchweek 2,Sun,Away,W,6,2,Wolves,1.6,1.9,60.0,31235.0,Enzo Fernández,4-2-3-1,4-2-3-1,Darren England,Match Report,,14.0,8.0,15.4,1.0,0,0,Chelsea,2024
+25-08-2024,16:30,Premier League,Matchweek 2,Sun,Home,W,2,0,Brentford,2.5,0.5,62.0,60017.0,Virgil van Dijk,4-2-3-1,04-04-2002,Stuart Attwell,Match Report,,19.0,8.0,13.6,1.0,0,0,Liverpool,2024
+25-08-2024,14:00,Premier League,Matchweek 2,Sun,Away,D,1,1,Bournemouth,1.6,2.2,61.0,11161.0,Bruno Guimarães,04-03-2003,4-2-3-1,David Coote,Match Report,,14.0,5.0,12.6,0.0,0,0,Newcastle United,2024
+25-08-2024,14:00,Premier League,Matchweek 2,Sun,Home,L,2,6,Chelsea,1.9,1.6,40.0,31235.0,Mario Lemina,4-2-3-1,4-2-3-1,Darren England,Match Report,,12.0,4.0,19.1,1.0,0,0,Wolverhampton Wanderers,2024
+25-10-2024,20:00,Premier League,Matchweek 9,Fri,Home,L,1,3,Nott'ham Forest,0.8,1.7,65.0,31879.0,Jamie Vardy,4-2-3-1,4-2-3-1,Craig Pawson,Match Report,,11.0,1.0,21.5,0.0,0,0,Leicester City,2024
+25-10-2024,20:00,Premier League,Matchweek 9,Fri,Away,W,3,1,Leicester City,1.7,0.8,35.0,31879.0,Ryan Yates,4-2-3-1,4-2-3-1,Craig Pawson,Match Report,,20.0,5.0,21.6,1.0,0,0,Nottingham Forest,2024
+25-11-2024,20:00,Premier League,Matchweek 12,Mon,Home,L,0,2,West Ham,1.6,0.9,53.0,52094.0,Bruno Guimarães,04-03-2003,4-2-3-1,Craig Pawson,Match Report,,18.0,2.0,16.1,0.0,0,0,Newcastle United,2024
+25-11-2024,20:00,Premier League,Matchweek 12,Mon,Away,W,2,0,Newcastle Utd,0.9,1.6,47.0,52094.0,Jarrod Bowen,4-2-3-1,04-03-2003,Craig Pawson,Match Report,,15.0,6.0,19.8,1.0,0,0,West Ham United,2024
+26-10-2024,15:00,Premier League,Matchweek 9,Sat,Home,D,1,1,Bournemouth,1.8,0.3,57.0,42165.0,John McGinn,4-4-1-1,4-2-3-1,Chris Kavanagh,Match Report,,18.0,8.0,15.1,0.0,0,0,Aston Villa,2024
+26-10-2024,15:00,Premier League,Matchweek 9,Sat,Away,D,1,1,Aston Villa,0.3,1.8,43.0,42165.0,Lewis Cook,4-2-3-1,4-4-1-1,Chris Kavanagh,Match Report,,10.0,3.0,21.6,0.0,0,0,Bournemouth,2024
+26-10-2024,15:00,Premier League,Matchweek 9,Sat,Home,W,4,3,Ipswich Town,4.0,1.3,65.0,17109.0,Christian Nørgaard,4-2-3-1,4-2-3-1,Lewis Smith,Match Report,,19.0,8.0,16.0,1.0,1,1,Brentford,2024
+26-10-2024,15:00,Premier League,Matchweek 9,Sat,Home,D,2,2,Wolves,1.3,1.3,51.0,31840.0,Danny Welbeck,04-04-2002,03-04-2003,Michael Oliver,Match Report,,19.0,6.0,17.5,1.0,0,0,Brighton and Hove Albion,2024
+26-10-2024,17:30,Premier League,Matchweek 9,Sat,Home,D,1,1,Fulham,0.8,1.2,40.0,38742.0,James Tarkowski,4-2-3-1,4-2-3-1,John Brooks,Match Report,,10.0,5.0,14.3,0.0,0,0,Everton,2024
+26-10-2024,17:30,Premier League,Matchweek 9,Sat,Away,D,1,1,Everton,1.2,0.8,60.0,38742.0,Bernd Leno,4-2-3-1,4-2-3-1,John Brooks,Match Report,,14.0,3.0,18.2,0.0,0,0,Fulham,2024
+26-10-2024,15:00,Premier League,Matchweek 9,Sat,Away,L,3,4,Brentford,1.3,4.0,35.0,17109.0,Conor Chaplin,4-2-3-1,4-2-3-1,Lewis Smith,Match Report,,11.0,5.0,17.4,0.0,0,0,Ipswich Town,2024
+26-10-2024,15:00,Premier League,Matchweek 9,Sat,Home,W,1,0,Southampton,2.9,0.2,57.0,52844.0,Rúben Dias,4-1-4-1,05-04-2001,Tony Harrington,Match Report,,22.0,7.0,16.6,0.0,0,0,Manchester City,2024
+26-10-2024,15:00,Premier League,Matchweek 9,Sat,Away,L,0,1,Manchester City,0.2,2.9,43.0,52844.0,Jack Stephens,05-04-2001,4-1-4-1,Tony Harrington,Match Report,,5.0,2.0,13.8,0.0,0,0,Southampton,2024
+26-10-2024,15:00,Premier League,Matchweek 9,Sat,Away,D,2,2,Brighton,1.3,1.3,49.0,31840.0,Mario Lemina,03-04-2003,04-04-2002,Michael Oliver,Match Report,,14.0,7.0,11.9,0.0,0,0,Wolverhampton Wanderers,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Away,L,0.0,3.0,Newcastle Utd,0.3,2.7,38.0,52168.0,John McGinn,4-2-3-1,4-3-3,Anthony Taylor,Match Report,,4.0,1.0,17.0,1.0,0,0,Aston Villa,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Home,D,0.0,0.0,Crystal Palace,1.4,0.4,52.0,11129.0,Lewis Cook,4-2-3-1,3-4-3,Thomas Bramall,Match Report,,18.0,3.0,14.2,1.0,0,0,Bournemouth,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Home,L,1.0,2.0,Fulham,1.1,1.8,47.0,,Enzo Fernández,4-2-3-1,4-5-1,Samuel Barrott,Match Report,,12.0,8.0,18.7,1.0,0,0,Chelsea,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Away,D,0.0,0.0,Bournemouth,0.4,1.4,48.0,11129.0,Marc Guéhi,3-4-3,4-2-3-1,Thomas Bramall,Match Report,,10.0,4.0,19.4,0.0,0,0,Crystal Palace,2024
+26-12-2024,12:30,Premier League,Matchweek 18,Thu,Away,D,1,1,Manchester City,0.7,2.1,34.0,,Séamus Coleman,4-3-3,4-1-4-1,Simon Hooper,Match Report,,8.0,3.0,16.8,0.0,0,0,Everton,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Away,W,2,1,Chelsea,1.8,1.1,53.0,,Antonee Robinson,4-5-1,4-2-3-1,Samuel Barrott,Match Report,,14.0,7.0,16.2,1.0,0,0,Fulham,2024
+26-12-2024,20:00,Premier League,Matchweek 18,Thu,Away,L,1,3,Liverpool,0.3,2.0,32.0,60300.0,Conor Coady,4-2-3-1,4-2-3-1,Darren Bond,Match Report,,4.0,1.0,16.2,0.0,0,0,Leicester City,2024
+26-12-2024,20:00,Premier League,Matchweek 18,Thu,Home,W,3.0,1.0,Leicester City,2.0,0.3,68.0,60300.0,Virgil van Dijk,4-2-3-1,4-2-3-1,Darren Bond,Match Report,,19.0,7.0,15.3,0.0,0,0,Liverpool,2024
+26-12-2024,12:30,Premier League,Matchweek 18,Thu,Home,D,1,1,Everton,2.1,0.7,66.0,,Bernardo Silva,4-1-4-1,4-3-3,Simon Hooper,Match Report,,23.0,4.0,17.2,1.0,0,1,Manchester City,2024
+26-12-2024,17:30,Premier League,Matchweek 18,Thu,Away,L,0,2,Wolves,0.4,0.9,49.0,,Bruno Fernandes,3-4-3,3-4-3,Tony Harrington,Match Report,,11.0,4.0,19.2,0.0,0,0,Manchester United,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Home,W,3,0,Aston Villa,2.7,0.3,62.0,52168.0,Bruno Guimarães,4-3-3,4-2-3-1,Anthony Taylor,Match Report,,22.0,7.0,15.8,1.0,0,0,Newcastle United,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Home,W,1,0,Tottenham,1.1,0.9,30.0,30200.0,Ryan Yates,4-2-3-1,4-2-3-1,Craig Pawson,Match Report,,10.0,3.0,15.5,0.0,0,0,Nottingham Forest,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Home,L,0,1,West Ham,1.4,1.7,54.0,31059.0,Jan Bednarek,3-4-1-2,4-1-4-1,Lewis Smith,Match Report,,18.0,5.0,12.8,0.0,0,0,Southampton,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Away,L,0.0,1.0,Nott'ham Forest,0.9,1.1,70.0,30200.0,Son Heung-min,4-2-3-1,4-2-3-1,Craig Pawson,Match Report,,13.0,4.0,20.0,1.0,0,0,Tottenham Hotspur,2024
+26-12-2024,15:00,Premier League,Matchweek 18,Thu,Away,W,1.0,0.0,Southampton,1.7,1.4,46.0,31059.0,Jarrod Bowen,4-1-4-1,3-4-1-2,Lewis Smith,Match Report,,16.0,2.0,15.3,1.0,0,0,West Ham United,2024
+26-12-2024,17:30,Premier League,Matchweek 18,Thu,Home,W,2.0,0.0,Manchester Utd,0.9,0.4,51.0,,Nélson Semedo,3-4-3,3-4-3,Tony Harrington,Match Report,,7.0,4.0,24.1,1.0,0,0,Wolverhampton Wanderers,2024
+27-10-2024,16:30,Premier League,Matchweek 9,Sun,Home,D,2,2,Liverpool,0.9,0.8,45.0,60383.0,Bukayo Saka,04-04-2002,4-2-3-1,Anthony Taylor,Match Report,,9.0,3.0,14.1,0.0,0,0,Arsenal,2024
+27-10-2024,14:00,Premier League,Matchweek 9,Sun,Home,W,2,1,Newcastle Utd,1.6,1.8,50.0,39526.0,Reece James,4-2-3-1,04-03-2003,Simon Hooper,Match Report,,17.0,7.0,16.7,0.0,0,0,Chelsea,2024
+27-10-2024,14:00,Premier League,Matchweek 9,Sun,Home,W,1,0,Tottenham,0.8,0.7,34.0,25108.0,Marc Guéhi,03-04-2003,04-03-2003,Darren Bond,Match Report,,14.0,6.0,19.6,1.0,0,0,Crystal Palace,2024
+27-10-2024,16:30,Premier League,Matchweek 9,Sun,Away,D,2,2,Arsenal,0.8,0.9,55.0,60383.0,Virgil van Dijk,4-2-3-1,04-04-2002,Anthony Taylor,Match Report,,9.0,4.0,17.8,0.0,0,0,Liverpool,2024
+27-10-2024,14:00,Premier League,Matchweek 9,Sun,Away,L,1,2,West Ham,2.3,2.8,58.0,62474.0,Bruno Fernandes,4-2-3-1,4-2-3-1,David Coote,Match Report,,18.0,5.0,18.0,1.0,0,0,Manchester United,2024
+27-10-2024,14:00,Premier League,Matchweek 9,Sun,Away,L,1,2,Chelsea,1.8,1.6,50.0,39526.0,Bruno Guimarães,04-03-2003,4-2-3-1,Simon Hooper,Match Report,,11.0,2.0,14.0,1.0,0,0,Newcastle United,2024
+27-10-2024,14:00,Premier League,Matchweek 9,Sun,Away,L,0,1,Crystal Palace,0.7,0.8,66.0,25108.0,Cristian Romero,04-03-2003,03-04-2003,Darren Bond,Match Report,,11.0,3.0,12.9,0.0,0,0,Tottenham Hotspur,2024
+27-10-2024,14:00,Premier League,Matchweek 9,Sun,Home,W,2,1,Manchester Utd,2.8,2.3,42.0,62474.0,Jarrod Bowen,4-2-3-1,4-2-3-1,David Coote,Match Report,,11.0,2.0,12.3,0.0,1,1,West Ham United,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Home,W,4,2,Leicester City,4.4,0.3,74.0,60323.0,Bukayo Saka,04-04-2002,4-2-3-1,Samuel Barrott,Match Report,,35.0,16.0,14.1,0.0,0,0,Arsenal,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Home,D,1,1,West Ham,0.4,1.0,57.0,17050.0,Vitaly Janelt,04-04-2002,4-1-4-1,Simon Hooper,Match Report,,8.0,3.0,20.7,1.0,0,0,Brentford,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Away,L,2,4,Chelsea,1.1,4.2,59.0,39495.0,Lewis Dunk,04-03-2003,4-2-3-1,Peter Bankes,Match Report,,15.0,5.0,20.1,2.0,0,0,Brighton and Hove Albion,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Home,W,4,2,Brighton,4.2,1.1,41.0,39495.0,Enzo Fernández,4-2-3-1,04-03-2003,Peter Bankes,Match Report,,14.0,5.0,15.7,1.0,1,1,Chelsea,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Away,L,1,2,Everton,0.9,0.9,59.0,38954.0,Marc Guéhi,03-04-2003,4-2-3-1,Andy Madley,Match Report,,17.0,4.0,17.3,1.0,0,0,Crystal Palace,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Home,W,2,1,Crystal Palace,0.9,0.9,41.0,38954.0,James Tarkowski,4-2-3-1,03-04-2003,Andy Madley,Match Report,,8.0,2.0,15.3,0.0,0,0,Everton,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Away,W,1,0,Nott'ham Forest,1.3,0.8,59.0,30139.0,Bernd Leno,4-2-3-1,04-04-2002,Joshua Smith,Match Report,,13.0,1.0,20.2,0.0,1,1,Fulham,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Away,L,2,4,Arsenal,0.3,4.4,26.0,60323.0,Jamie Vardy,4-2-3-1,04-04-2002,Samuel Barrott,Match Report,,5.0,3.0,14.5,0.0,0,0,Leicester City,2024
+28-09-2024,17:30,Premier League,Matchweek 6,Sat,Away,W,2,1,Wolves,2.5,0.6,55.0,31413.0,Virgil van Dijk,4-2-3-1,4-1-4-1,Anthony Taylor,Match Report,,9.0,5.0,18.0,1.0,1,1,Liverpool,2024
+28-09-2024,12:30,Premier League,Matchweek 6,Sat,Away,D,1,1,Newcastle Utd,0.9,1.6,62.0,52248.0,Kyle Walker,4-2-3-1,04-03-2003,Jarred Gillett,Match Report,,16.0,6.0,17.6,0.0,0,0,Manchester City,2024
+28-09-2024,12:30,Premier League,Matchweek 6,Sat,Home,D,1,1,Manchester City,1.6,0.9,38.0,52248.0,Bruno Guimarães,04-03-2003,4-2-3-1,Jarred Gillett,Match Report,,10.0,3.0,15.1,0.0,1,1,Newcastle United,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Home,L,0,1,Fulham,0.8,1.3,41.0,30139.0,Ryan Yates,04-04-2002,4-2-3-1,Joshua Smith,Match Report,,11.0,1.0,19.3,0.0,0,0,Nottingham Forest,2024
+28-09-2024,15:00,Premier League,Matchweek 6,Sat,Away,D,1,1,Brentford,1.0,0.4,43.0,17050.0,Jarrod Bowen,4-1-4-1,04-04-2002,Simon Hooper,Match Report,,19.0,3.0,18.7,0.0,0,0,West Ham United,2024
+28-09-2024,17:30,Premier League,Matchweek 6,Sat,Home,L,1,2,Liverpool,0.6,2.5,45.0,31413.0,Mario Lemina,4-1-4-1,4-2-3-1,Anthony Taylor,Match Report,,8.0,3.0,22.9,0.0,0,0,Wolverhampton Wanderers,2024
+29-09-2024,14:00,Premier League,Matchweek 6,Sun,Away,D,2,2,Ipswich Town,0.8,1.2,56.0,29943.0,Emiliano Martínez,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,7.0,3.0,19.0,1.0,0,0,Aston Villa,2024
+29-09-2024,14:00,Premier League,Matchweek 6,Sun,Home,D,2,2,Aston Villa,1.2,0.8,44.0,29943.0,Sam Morsy,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,15.0,5.0,18.4,0.0,0,0,Ipswich Town,2024
+29-09-2024,16:30,Premier League,Matchweek 6,Sun,Home,L,0,3,Tottenham,1.0,4.4,39.0,73587.0,Bruno Fernandes,4-2-3-1,04-03-2003,Chris Kavanagh,Match Report,,11.0,2.0,15.1,0.0,0,0,Manchester United,2024
+29-09-2024,16:30,Premier League,Matchweek 6,Sun,Away,W,3,0,Manchester Utd,4.4,1.0,61.0,73587.0,Cristian Romero,04-03-2003,4-2-3-1,Chris Kavanagh,Match Report,,24.0,10.0,14.6,0.0,0,0,Tottenham Hotspur,2024
+29-11-2024,20:00,Premier League,Matchweek 13,Fri,Home,D,1.0,1.0,Southampton,1.7,1.0,53.0,31542.0,Danny Welbeck,4-4-2,5-4-1,Robert Jones,Match Report,,22.0,5.0,16.5,0.0,0,0,Brighton and Hove Albion,2024
+29-11-2024,20:00,Premier League,Matchweek 13,Fri,Away,D,1,1,Brighton,1.0,1.7,47.0,31542.0,Jack Stephens,5-4-1,4-4-2,Robert Jones,Match Report,,10.0,2.0,16.8,0.0,0,0,Southampton,2024
+30-09-2024,20:00,Premier League,Matchweek 6,Mon,Home,W,3,1,Southampton,1.3,0.6,40.0,11243.0,Adam Smith,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,14.0,6.0,18.8,0.0,0,0,Bournemouth,2024
+30-09-2024,20:00,Premier League,Matchweek 6,Mon,Away,L,1,3,Bournemouth,0.6,1.3,60.0,11243.0,Flynn Downes,4-2-3-1,4-2-3-1,Michael Oliver,Match Report,,9.0,3.0,18.4,0.0,0,0,Southampton,2024
+30-11-2024,17:30,Premier League,Matchweek 13,Sat,Away,W,5.0,2.0,West Ham,3.5,1.5,60.0,62475.0,Martin Ødegaard,4-3-3,4-2-3-1,Anthony Taylor,Match Report,,14.0,5.0,15.4,1.0,2,2,Arsenal,2024
+30-11-2024,15:00,Premier League,Matchweek 13,Sat,Away,W,4.0,2.0,Wolves,3.3,0.5,40.0,26685.0,Adam Smith,4-2-3-1,4-2-3-1,Peter Bankes,Match Report,,9.0,5.0,21.4,0.0,3,3,Bournemouth,2024
+30-11-2024,15:00,Premier League,Matchweek 13,Sat,Home,W,4,1,Leicester City,2.4,1.1,60.0,17084.0,Christian Nørgaard,4-2-3-1,3-4-3,Michael Oliver,Match Report,,13.0,6.0,16.0,1.0,0,0,Brentford,2024
+30-11-2024,15:00,Premier League,Matchweek 13,Sat,Home,D,1.0,1.0,Newcastle Utd,1.7,0.0,49.0,25101.0,Marc Guéhi,3-4-3,4-3-3,Darren England,Match Report,,16.0,3.0,13.6,0.0,0,0,Crystal Palace,2024
+30-11-2024,15:00,Premier League,Matchweek 13,Sat,Away,L,0,1,Nott'ham Forest,0.6,1.6,55.0,30237.0,Sam Morsy,4-2-3-1,4-2-3-1,Tony Harrington,Match Report,,7.0,2.0,14.9,0.0,0,0,Ipswich Town,2024
+30-11-2024,15:00,Premier League,Matchweek 13,Sat,Away,L,1,4,Brentford,1.1,2.4,40.0,17084.0,Jamie Vardy,3-4-3,4-2-3-1,Michael Oliver,Match Report,,7.0,3.0,16.9,0.0,0,0,Leicester City,2024
+30-11-2024,15:00,Premier League,Matchweek 13,Sat,Away,D,1,1,Crystal Palace,0.0,1.7,51.0,25101.0,Bruno Guimarães,4-3-3,3-4-3,Darren England,Match Report,,1.0,0.0,6.9,0.0,0,0,Newcastle United,2024
+30-11-2024,15:00,Premier League,Matchweek 13,Sat,Home,W,1,0,Ipswich Town,1.6,0.6,45.0,30237.0,Ryan Yates,4-2-3-1,4-2-3-1,Tony Harrington,Match Report,,11.0,4.0,16.9,1.0,1,1,Nottingham Forest,2024
+30-11-2024,17:30,Premier League,Matchweek 13,Sat,Home,L,2.0,5.0,Arsenal,1.5,3.5,40.0,62475.0,Jarrod Bowen,4-2-3-1,4-3-3,Anthony Taylor,Match Report,,12.0,5.0,18.1,2.0,0,0,West Ham United,2024
+30-11-2024,15:00,Premier League,Matchweek 13,Sat,Home,L,2.0,4.0,Bournemouth,0.5,3.3,60.0,26685.0,Mario Lemina,4-2-3-1,4-2-3-1,Peter Bankes,Match Report,,10.0,3.0,19.9,1.0,0,0,Wolverhampton Wanderers,2024
+31-08-2024,12:30,Premier League,Matchweek 3,Sat,Home,D,1,1,Brighton,2.1,1.7,36.0,60326.0,Martin Ødegaard,04-03-2003,4-2-3-1,Chris Kavanagh,Match Report,,11.0,7.0,12.9,0.0,0,0,Arsenal,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Away,W,2,1,Leicester City,1.4,0.4,43.0,31725.0,John McGinn,04-04-2002,4-2-3-1,David Coote,Match Report,,10.0,5.0,17.9,0.0,0,0,Aston Villa,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Away,W,3,2,Everton,2.4,1.8,53.0,38805.0,Lewis Cook,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,17.0,7.0,14.9,0.0,0,0,Bournemouth,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Home,W,3,1,Southampton,2.8,1.5,37.0,16955.0,Christian Nørgaard,04-03-2003,03-05-2002,Joshua Smith,Match Report,,20.0,7.0,14.5,0.0,0,0,Brentford,2024
+31-08-2024,12:30,Premier League,Matchweek 3,Sat,Away,D,1,1,Arsenal,1.7,2.1,64.0,60326.0,Lewis Dunk,4-2-3-1,04-03-2003,Chris Kavanagh,Match Report,,22.0,4.0,19.3,0.0,0,0,Brighton and Hove Albion,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Home,L,2,3,Bournemouth,1.8,2.4,47.0,38805.0,Séamus Coleman,4-2-3-1,4-2-3-1,Stuart Attwell,Match Report,,18.0,8.0,15.7,0.0,0,0,Everton,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Away,D,1,1,Ipswich Town,0.9,0.4,52.0,29517.0,Bernd Leno,04-03-2003,4-2-3-1,Lewis Smith,Match Report,,9.0,4.0,13.1,0.0,0,0,Fulham,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Home,D,1,1,Fulham,0.4,0.9,48.0,29517.0,Sam Morsy,4-2-3-1,04-03-2003,Lewis Smith,Match Report,,11.0,4.0,18.0,1.0,0,0,Ipswich Town,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Home,L,1,2,Aston Villa,0.4,1.4,57.0,31725.0,Jamie Vardy,4-2-3-1,04-04-2002,David Coote,Match Report,,9.0,3.0,20.6,0.0,0,0,Leicester City,2024
+31-08-2024,17:30,Premier League,Matchweek 3,Sat,Away,W,3,1,West Ham,3.0,0.7,67.0,62469.0,Kevin De Bruyne,3-2-4-1,4-2-3-1,Michael Oliver,Match Report,,23.0,8.0,15.0,1.0,0,0,Manchester City,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Home,D,1,1,Wolves,1.0,0.7,52.0,29918.0,Morgan Gibbs-White,4-2-3-1,4-4-1-1,Simon Hooper,Match Report,,16.0,5.0,14.6,1.0,0,0,Nottingham Forest,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Away,L,1,3,Brentford,1.5,2.8,63.0,16955.0,Jack Stephens,03-05-2002,04-03-2003,Joshua Smith,Match Report,,18.0,6.0,18.1,1.0,0,0,Southampton,2024
+31-08-2024,17:30,Premier League,Matchweek 3,Sat,Home,L,1,3,Manchester City,0.7,3.0,33.0,62469.0,Jarrod Bowen,4-2-3-1,3-2-4-1,Michael Oliver,Match Report,,10.0,2.0,16.9,0.0,0,0,West Ham United,2024
+31-08-2024,15:00,Premier League,Matchweek 3,Sat,Away,D,1,1,Nott'ham Forest,0.7,1.0,48.0,29918.0,Mario Lemina,4-4-1-1,4-2-3-1,Simon Hooper,Match Report,,11.0,2.0,20.7,0.0,0,0,Wolverhampton Wanderers,2024
