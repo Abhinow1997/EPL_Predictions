@@ -11,19 +11,20 @@ collection = db["predictions"]
 
 @app.route("/")
 def home():
-    # Fetch predictions from MongoDB
-    predictions = list(collection.find({}, {"_id": 0}))  # Exclude `_id` field
+    predictions = list(collection.find({}, {"_id": 0}))
+    print(predictions)  # Debugging: Print predictions to console
+    return render_template("index.html", predictions=predictions)
+
+    # # Convert to Pandas DataFrame for easier processing
+    # df = pd.DataFrame(predictions)
     
-    # Convert to Pandas DataFrame for easier processing
-    df = pd.DataFrame(predictions)
+    # # Convert DataFrame to HTML table
+    # predictions_html = df.to_html(
+    #     classes="table table-striped table-bordered",
+    #     index=False
+    # )
     
-    # Convert DataFrame to HTML table
-    predictions_html = df.to_html(
-        classes="table table-striped table-bordered",
-        index=False
-    )
-    
-    return render_template("index.html", table=predictions_html)
+    # return render_template("index.html", table=predictions_html)
 
 if __name__ == "__main__":
     app.run(debug=True)
