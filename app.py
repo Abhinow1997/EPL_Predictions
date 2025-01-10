@@ -26,9 +26,20 @@ def home():
         # Ensure 'time' exists, or set a default value
             prediction['time'] = prediction.get('time', '00:00')
 
-    predictions = sorted(predictions, key=lambda x: (x['date'], x['time']))
+    predictions = sorted(predictions, key=lambda x: (x['wk'], x['date'], x['time']))
 
-    return render_template("index.html", predictions=predictions)
-    
+
+    # Group predictions by week
+    grouped_predictions = {}
+    for prediction in predictions:
+        wk = prediction['wk']
+        if wk not in grouped_predictions:
+            grouped_predictions[wk] = []
+        grouped_predictions[wk].append(prediction)
+
+    grouped_predictions = dict(sorted(grouped_predictions.items(), reverse=True))
+
+    return render_template("index.html", grouped_predictions=grouped_predictions)
+        
 if __name__ == "__main__":
     app.run(debug=True)
