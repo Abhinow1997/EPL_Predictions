@@ -307,6 +307,36 @@ def main():
     mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
     save_to_mongodb(predictions_df, db_name="epl_2024_25", collection_name="predictions", mongo_uri=mongo_uri)
 
+def livetable_update():    
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # Find the standings table
+    standings_table = soup.select_one('table.stats_table')
+    if not standings_table:
+        raise Exception("Standings table not found.")
+
+    headers = [th.get_text(strip=True) for th in standings_table.find('thead').find_all('th')]
+
+    # Extract rows and align with headers
+    rows = standings_table.find('tbody').find_all('tr')
+    data = []
+
+    for row in rows:
+        columns = row.find_all(['th', 'td'])  
+        row_data = [col.get_text(strip=True) for col in columns]
+        
+        if len(row_data) == len(headers):
+            data.append(dict(zip(headers, row_data)))
+        else:
+            print(f"Row with mismatched columns skipped: {row_data}")
+
+    df = pd.DataFrame(data)
+
+    # Save predictions to MongoDB
+    mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
+    save_to_mongodb(df, db_name="epl_2024_25", collection_name="livetable", mongo_uri=mongo_uri)
+
 if __name__ == "__main__":
+    livetable_update()
     main()
 
