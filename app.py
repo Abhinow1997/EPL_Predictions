@@ -9,6 +9,8 @@ app = Flask(__name__)
 client = MongoClient("mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0")
 db = client["epl_2024_25"]
 collection = db["predictions"]
+matchday_data = db["matchday_collection"]
+
 
 @app.route("/")
 def home():
@@ -28,7 +30,8 @@ def home():
 
     predictions = sorted(predictions, key=lambda x: (x['wk'], x['date'], x['time']))
 
-
+    last_matchday = list(matchday_data.find({}, {"_id": 0}))
+    
     # Group predictions by week
     grouped_predictions = {}
     for prediction in predictions:
@@ -39,7 +42,7 @@ def home():
 
     grouped_predictions = dict(sorted(grouped_predictions.items(), reverse=True))
 
-    return render_template("index.html", grouped_predictions=grouped_predictions)
+    return render_template("index.html", grouped_predictions=grouped_predictions,last_matchday=last_matchday)
         
 if __name__ == "__main__":
     app.run(debug=True)
