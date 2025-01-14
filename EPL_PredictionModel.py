@@ -3,17 +3,14 @@
 
 # ## STEP 1 : Updating the matchdays
 
-# In[30]:
+# In[7]:
 
 
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+from pymongo import MongoClient
 import pandas as pd
-import numpy as np
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
 
 standings_url = "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures"
 
@@ -26,7 +23,7 @@ if response.status_code != 200:
     raise Exception(f"Failed to load page {standings_url}. Status code: {response.status_code}")
 
 
-# In[36]:
+# In[37]:
 
 
 soup = BeautifulSoup(response.text, 'html.parser')
@@ -55,20 +52,67 @@ for row in rows:
 
 matchday_collection = pd.DataFrame(data)
 
-# matchday_collection.count()
-matchday_collection.to_csv("matchday_collection.csv")
+# Save to MongoDB
+def save_to_mongodb(dataframe, db_name, collection_name, mongo_uri):
+    """
+    Save a Pandas DataFrame to a MongoDB collection.
+    
+    Args:
+        dataframe (pd.DataFrame): The DataFrame to save.
+        db_name (str): The name of the database.
+        collection_name (str): The name of the collection.
+        mongo_uri (str): The MongoDB connection URI.
+    """
+    # Connect to MongoDB
+    client = MongoClient(mongo_uri)
+    db = client[db_name]
+    collection = db[collection_name]
+
+    for _, row in dataframe.iterrows():
+        record = row.to_dict()
+
+        filter_query = {
+            "Wk": record.get("Wk"),
+            "Date": record.get("Date"),
+            "Home": record.get("Home"),
+            "Away": record.get("Away"),
+            "Score": record.get("Score")
+        }
+
+        collection.update_one(filter_query, {"$set": record}, upsert=True)
+    print(f"Processed {len(dataframe)} records in {collection_name} collection.")
+
+mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
+db_name = "epl_2024_25"
+matchday_collection_name = "matchday_collection" #Collection of all the updated matchs records and scores
+
+# Call the function to save data
+save_to_mongodb(matchday_collection, db_name, matchday_collection_name, mongo_uri)
 
 
 # ## Finding Relevent latest upcoming matches
 
-# In[50]:
+# In[293]:
 
 
 import pandas as pd
+from pymongo import MongoClient
 
-# Load the data
-file_path = "matchday_collection.csv"
-matchday_collection = pd.read_csv(file_path)
+# MongoDB connection details
+mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
+db_name = "epl_2024_25"
+matchday_collection_name = "matchday_collection"
+
+def fetch_data_from_mongodb(db_name, collection_name, mongo_uri):
+    client = MongoClient(mongo_uri)
+    db = client[db_name]
+    collection = db[collection_name]
+    
+    # Fetch all documents from the collection
+    data = list(collection.find({}, {"_id": 0}))  # Exclude the `_id` field
+    return pd.DataFrame(data)
+
+matchday_collection = fetch_data_from_mongodb(db_name, matchday_collection_name, mongo_uri)
 
 # Standardize column names
 matchday_collection.columns = matchday_collection.columns.str.lower().str.strip()
@@ -77,16 +121,33 @@ matchday_collection.columns = matchday_collection.columns.str.lower().str.strip(
 if 'date' in matchday_collection.columns:
     matchday_collection['date'] = pd.to_datetime(matchday_collection['date'], dayfirst=True, errors='coerce')
 
-    # Drop rows where 'date' could not be parsed (invalid dates)
-    matchday_collection = matchday_collection.dropna(subset=['date'])
+# Drop rows with invalid dates
+matchday_collection = matchday_collection.dropna(subset=['date'])
 
-# Filter for upcoming matches where 'match report' is "Head-to-Head"
-upcoming_matches = matchday_collection[matchday_collection['match report'] == "Head-to-Head"]
+# Filter for "Head-to-Head" matches and find the minimum week number
+head_to_head_matches = matchday_collection[matchday_collection['match report'] == "Head-to-Head"]
 
-# Find the minimum week (Wk) value
-if 'wk' in upcoming_matches.columns:
-    min_week = upcoming_matches['wk'].min()
-    nxt_week_matches = upcoming_matches[upcoming_matches['wk'].isin((min_week, min_week+1)) ]
+if 'wk' in head_to_head_matches.columns:
+    head_to_head_matches['wk'] = pd.to_numeric(head_to_head_matches['wk'], errors='coerce').fillna(0).astype(int)
+    min_week = head_to_head_matches['wk'].min()
+
+# Filter for "Match Report" matches and find the maximum week number
+match_report_matches = matchday_collection[matchday_collection['match report'] == "Match Report"]
+
+if 'wk' in match_report_matches.columns:
+    match_report_matches['wk'] = pd.to_numeric(match_report_matches['wk'], errors='coerce').fillna(0).astype(int)
+    max_week = match_report_matches['wk'].max()
+
+matchday_collection['wk'] = pd.to_numeric(matchday_collection['wk'], errors='coerce').fillna(0).astype(int)
+
+# Combine matches for both min_week and max_week
+close_week_matches = matchday_collection[
+    matchday_collection['wk'].isin([min_week])
+]
+
+last_week_matches = matchday_collection[
+    matchday_collection['wk'].isin([max_week])
+]
 
 # Mapping of team abbreviations to full names
 team_name_mapping = {
@@ -112,49 +173,26 @@ team_name_mapping = {
     "Brentford": "Brentford"
 }
 
-
 # Update team names in 'home' and 'away' columns
-nxt_week_matches['home'] = nxt_week_matches['home'].replace(team_name_mapping)
-nxt_week_matches['away'] = nxt_week_matches['away'].replace(team_name_mapping)
-
-#nxt_week_matches
+close_week_matches['home'] = close_week_matches['home'].replace(team_name_mapping)
+close_week_matches['away'] = close_week_matches['away'].replace(team_name_mapping)
 
 
-# In[6]:
+# In[295]:
 
 
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
-
-uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
-
-# Create a new client and connect to the server
-client = MongoClient(uri, server_api=ServerApi('1'))
-
-# Send a ping to confirm a successful connection
-try:
-    client.admin.command('ping')
-    print("Pinged your deployment. You successfully connected to MongoDB!")
-except Exception as e:
-    print(e)
-
-
-# In[73]:
-
-
-from pymongo import MongoClient
 import pandas as pd
+import numpy as np
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
 
-db_name="abhi_mongobd_user"
-collection_name="epl2024_25.epl_predictions"
-mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
-
-def save_to_mongodb(predictions_df, db_name, collection_name, mongo_uri):
+def save_to_mongodb_predictions(dataframe, db_name, collection_name, mongo_uri):
     """
-    Save the predictions DataFrame to a MongoDB collection.
+    Save a Pandas DataFrame to a MongoDB collection.
     
     Args:
-        predictions_df (pd.DataFrame): The DataFrame containing predictions.
+        dataframe (pd.DataFrame): The DataFrame to save.
         db_name (str): The name of the database.
         collection_name (str): The name of the collection.
         mongo_uri (str): The MongoDB connection URI.
@@ -163,21 +201,35 @@ def save_to_mongodb(predictions_df, db_name, collection_name, mongo_uri):
     client = MongoClient(mongo_uri)
     db = client[db_name]
     collection = db[collection_name]
-    
-    # Convert DataFrame to dictionary and insert into MongoDB
-    data = predictions_df.to_dict(orient="records")
-    collection.insert_many(data)
-    
-    print(f"Saved {len(data)} records to {collection_name} in {db_name} database.")
+
+    for _, row in dataframe.iterrows():
+        record = row.to_dict()
+
+        filter_query = {
+            "wk": record.get("wk"),
+            "date": record.get("date"),
+            "time": record.get("time"),
+            "home_team": record.get("home_team"),
+            "home_goals": record.get("home_goals"),
+            "away_team": record.get("away_team"),
+            "away_goals": record.get("away_goals"),
+            "score": record.get("score")            
+        }
+
+        collection.update_one(filter_query, {"$set": record}, upsert=True)
+    print(f"Processed {len(dataframe)} records in {collection_name} collection.")
 
 # Predict scorelines for upcoming matches
-def predict_upcoming_matches(nxt_week_matches, home_model, away_model, scaler, matches_preprocessed):
+def predict_upcoming_matches(close_week_matches, home_model, away_model, scaler, matches_preprocessed):
     predictions = []
     
-    for _, row in nxt_week_matches.iterrows():
+    for _, row in close_week_matches.iterrows():
         home_team = row['home']
         away_team = row['away']
         wk = row['wk']
+        date = row['date']
+        time = row['time']
+        score = row['score']
         
         # Get stats for both teams from preprocessed data
         try:
@@ -212,10 +264,13 @@ def predict_upcoming_matches(nxt_week_matches, home_model, away_model, scaler, m
             
             predictions.append({
                 "wk": wk,
+                "date" : date,
+                "time" : time,
                 "home_team": home_team,
                 "away_team": away_team,
                 "home_goals": predicted_home_goals,
-                "away_goals": predicted_away_goals
+                "away_goals": predicted_away_goals,
+                "score": score                
             })
         
         except IndexError:
@@ -264,27 +319,26 @@ def preprocess_data(matches):
     matches['date'] = pd.to_datetime(matches['date'], dayfirst=True)
     matches = matches.sort_values(by=['team', 'date'])
     
-    # Add form features (last 5 matches)
+    # Add form features (last 6 matches)
     form_features = ['gf', 'ga', 'xg', 'xga', 'poss', 'sh', 'sot']
     for feature in form_features:
-        # Recent form (last 5 matches)
+        # Recent form (last 6 matches)
         matches[f'recent_{feature}'] = matches.groupby('team')[feature].transform(
-            lambda x: x.rolling(5, min_periods=1).mean()
+            lambda x: x.rolling(6, min_periods=1).mean()
         )
         # Overall average
         matches[f'avg_{feature}'] = matches.groupby('team')[feature].transform('mean')
     
     # Add home/away indicator
     matches['is_home'] = (matches['venue'] == 'Home').astype(int)
-    
     return matches    
 
 def main():
-    # Load historical match data and upcoming match data
-    historical_matches_path = "df_union.csv"
-        
-    historical_matches = pd.read_csv(historical_matches_path)
-        
+    
+    historical_matches_collection ="historical_matches"
+    mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
+    historical_matches = fetch_data_from_mongodb(db_name, historical_matches_collection, mongo_uri)
+    
     # Preprocess historical data
     historical_matches_preprocessed = preprocess_data(historical_matches)
     
@@ -293,7 +347,7 @@ def main():
     
     # Generate predictions for next week's matches
     predictions_df = predict_upcoming_matches(
-        nxt_week_matches=nxt_week_matches,
+        close_week_matches=close_week_matches,
         home_model=home_model,
         away_model=away_model,
         scaler=scaler,
@@ -301,42 +355,80 @@ def main():
     )
     
     print("\nPredicted Results for Next Week Matches:")
+    
     print(predictions_df)
     
     # Save predictions to MongoDB
     mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
-    save_to_mongodb(predictions_df, db_name="epl_2024_25", collection_name="predictions", mongo_uri=mongo_uri)
-
-def livetable_update():    
-    soup = BeautifulSoup(response.text, 'html.parser')
-
-    # Find the standings table
-    standings_table = soup.select_one('table.stats_table')
-    if not standings_table:
-        raise Exception("Standings table not found.")
-
-    headers = [th.get_text(strip=True) for th in standings_table.find('thead').find_all('th')]
-
-    # Extract rows and align with headers
-    rows = standings_table.find('tbody').find_all('tr')
-    data = []
-
-    for row in rows:
-        columns = row.find_all(['th', 'td'])  
-        row_data = [col.get_text(strip=True) for col in columns]
-        
-        if len(row_data) == len(headers):
-            data.append(dict(zip(headers, row_data)))
-        else:
-            print(f"Row with mismatched columns skipped: {row_data}")
-
-    df = pd.DataFrame(data)
-
-    # Save predictions to MongoDB
-    mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
-    save_to_mongodb(df, db_name="epl_2024_25", collection_name="livetable", mongo_uri=mongo_uri)
+    save_to_mongodb_predictions(predictions_df, db_name="epl_2024_25", collection_name="predictions", mongo_uri=mongo_uri)
 
 if __name__ == "__main__":
-    livetable_update()
     main()
 
+
+# # Live Table Update
+
+# In[34]:
+
+
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+
+standings_url = "https://fbref.com/en/comps/9/Premier-League-Stats"
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
+response = requests.get(standings_url, headers=headers)
+
+if response.status_code != 200:
+    raise Exception(f"Failed to load page {standings_url}. Status code: {response.status_code}")
+    
+soup = BeautifulSoup(response.text, 'html.parser')
+
+# Find the standings table
+standings_table = soup.select_one('table.stats_table')
+if not standings_table:
+    raise Exception("Standings table not found.")
+
+headers = [th.get_text(strip=True) for th in standings_table.find('thead').find_all('th')]
+
+# Extract rows and align with headers
+rows = standings_table.find('tbody').find_all('tr')
+data = []
+
+for row in rows:
+    columns = row.find_all(['th', 'td'])  
+    row_data = [col.get_text(strip=True) for col in columns]
+    
+    if len(row_data) == len(headers):
+        data.append(dict(zip(headers, row_data)))
+    else:
+        print(f"Row with mismatched columns skipped: {row_data}")
+
+df = pd.DataFrame(data)
+
+# Save predictions to MongoDB
+mongo_uri = "mongodb+srv://abhi_mongobd_user:abhi_mongobd_user@freecluster0.i05lv.mongodb.net/?retryWrites=true&w=majority&appName=FreeCluster0"
+#save_to_mongodb(df, db_name="epl_2024_25", collection_name="livetable", mongo_uri=mongo_uri)
+
+client = MongoClient(mongo_uri)
+db = client["epl_2024_25"]
+collection = db["livetable"]
+
+for _, row in df.iterrows():
+    record = row.to_dict()
+    filter_query = {
+        "Rk": record.get("Rk"),
+        "Team": record.get("Squad"),
+        "Matches Played": record.get("MP"),
+        "Won": record.get("W"),
+        "Draw": record.get("D"),
+        "Loss": record.get("L"),
+        "Goal Diffrence": record.get("GD"),
+        "Points": record.get("Pts")
+    }
+
+    collection.update_one(filter_query, {"$set": record}, upsert=True)
+print(f"Processed {len(df)} records in {collection} collection.")
