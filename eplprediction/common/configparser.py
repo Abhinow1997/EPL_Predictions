@@ -32,12 +32,12 @@ class ConfigParser:
             logger.success(f'Successfully loaded {path}')
             return config          
         
-    def check_validity(self, config_data) -> None:
-        if config_data['model']['voting']['long_term_form_vote_perc'] + config_data['model']['voting']['short_term_form_vote_perc'] != 1:
-            logger.error('Voting weights do not add to 1! Please check configuration file!')
+    def yamlvalidation(self, config_data) -> None:
+        if config_data['model']['voting']['form_longterm_percentage'] + config_data['model']['voting']['form_shortterm_percentage'] != 1:
+            logger.error('Form  weights should add upto 1! Please check configuration file!')
             sys.exit(1)
-        if config_data['model']['regressor'] not in ['LinearRegression', 'PoissonRegressor', 'SVR', 'XGBRegressor']:
-            logger.error(f"Model regressor {config_data['model']['regressor']} is invalid! Please check configuration file!")
+        if config_data['model']['regressor'] not in ['LinearRegression', 'PoissonRegressor', 'SVR']:
+            logger.error(f"Selected Model {config_data['model']['regressor']} is incorrect!! Configuration options needs to be updated!")
             sys.exit(1)
         if config_data['league'] not in ['EPL', 'La_Liga', 'Bundesliga', 'Serie_A', 'Ligue_1']:
             logger.error(f"League {config_data['league']} is invalid! Please check configuration file!")
@@ -45,7 +45,7 @@ class ConfigParser:
 
 
     def load_configuration_class(self, config_data) -> dataclass:
-        """Calls check_validity(). Imports the regressor depending on the users choice. Loads self.config dataclass with the validated configuration settings.
+        """Calls yamlvalidation(). Imports the regressor depending on the users choice. Loads self.config dataclass with the validated configuration settings.
 
         Args:
             config_data (_type_: dict): The configuration dictionary in the format output from load_and_extract_yaml().
@@ -53,7 +53,7 @@ class ConfigParser:
         Returns:
             self.config (_type_: Configuration_dataclass_object): The dataclass with the validated configuration settings.
         """
-        self.check_validity(config_data)
+        self.yamlvalidation(config_data)
         if (config_data['model']['regressor'] == "LinearRegression") or (config_data['model']['regressor'] == "PoissonRegressor"):
             module_path = 'sklearn.linear_model'
             regressor_module = importlib.import_module(module_path)
@@ -62,7 +62,7 @@ class ConfigParser:
             module_path = 'sklearn.svm'
             regressor_module = importlib.import_module(module_path)
             regressor = getattr(regressor_module, config_data['model']['regressor'])
-            
+        
         self.config = Configuration(
                 league= config_data['league'],
                 regressor = regressor,
@@ -74,15 +74,14 @@ class ConfigParser:
                 current_season= config_data['data_gathering']['current_season'],
                 data_co_uk_path= config_data['data_gathering']['paths'][config_data['league']]['data_co_uk_path'],
                 database = config_data['data_gathering']['paths'][config_data['league']]['database'],
-                bookmaker_url= config_data['data_gathering']['bookmaker'][config_data['league']]['url'],
-                bookmaker_dictionary= self.load_and_extract_yaml(path = config_data['data_gathering']['bookmaker'][config_data['league']]['dictionary_path']),
                 data_co_uk_url= config_data['data_gathering']['data_co_uk'][config_data['league']]['url'],
                 data_co_uk_dictionary= self.load_and_extract_yaml(path = config_data['data_gathering']['data_co_uk'][config_data['league']]['dictionary_path']),
                 fixture_download_url= config_data['data_gathering']['fixture_download'][config_data['league']]['url'],
                 fixture_download_dictionary= self.load_and_extract_yaml(path = config_data['data_gathering']['fixture_download'][config_data['league']]['dictionary_path']),
-                voting_dict= { 'long_term': config_data['model']['voting']['long_term_form_vote_perc'], 'short_term': config_data['model']['voting']['short_term_form_vote_perc']},
+                voting_dict= { 'long_term': config_data['model']['voting']['form_longterm_percentage'], 'short_term': config_data['model']['voting']['form_shortterm_percentage']},
                 matchdays_to_drop = config_data['model']['matchdays_to_drop']
         )
+
         return self.config
     
 
@@ -100,8 +99,8 @@ class Configuration:
     seasons_to_gather: list
     current_season: str
     data_co_uk_path: str
-    bookmaker_url: str
-    bookmaker_dictionary: dict
+    #bookmaker_url: str
+    #bookmaker_dictionary: dict
     data_co_uk_url: str
     data_co_uk_dictionary: dict
     fixture_download_url: str
