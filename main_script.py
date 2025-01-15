@@ -7,7 +7,6 @@ import pandas as pd
 
 """
 English Premier League Predictor 
-
 This script performs data scraping and processing to predict outcomes in the specified English Premier League configuration.
 """
 

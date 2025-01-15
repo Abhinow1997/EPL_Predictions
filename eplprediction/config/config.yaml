@@ -4,7 +4,7 @@ model:
   voting: #Percentage of long term form and short term form perencage. Total should add up to 1
     form_longterm_percentage: 0.7
     form_shortterm_percentage: 0.3
-  matchdays_to_drop: 4
+  matchdays_to_drop: 3
   regressor: PoissonRegressor #One of the available [LinearRegression, PoissonRegressor, SVR]
 
 bettor:
