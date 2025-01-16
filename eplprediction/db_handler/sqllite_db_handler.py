@@ -1,3 +1,4 @@
+import os
 import sqlite3 
 import pandas as pd 
 from loguru import logger 
@@ -6,42 +7,34 @@ from sqlalchemy import TEXT
 
 class SQLliteHandler:
     def __init__(self, league:str, database: str):
-        self.league = "epl"
+        self.league = league
         self.database = database
     
-    def get_data(self, table_names: str or list[str]) -> list[pd.DataFrame]:
-        dataframe_list = []
-        connection = None
+    def get_data(self, table_names):
+        """
+        Retrieves data from the specified tables in the SQLite database.
 
+        Args:
+            table_names (list): A list of table names to retrieve data from.
+
+        Returns:
+            list: A list of dataframes corresponding to the tables.
+        """
         if isinstance(table_names, str):
-            table_names = table_names[table_names]
+            table_names = [table_names]
 
+        dataframes = []
         try:
             connection = sqlite3.connect(self.database)
-            cursor = connection.cursor()
             for table_name in table_names:
-                # Check if the table exists
-                cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name=?;", (table_name,))
-                result = cursor.fetchone()
-
-                if result:
-                    # Fetch data from the specified table
-                    query = f"SELECT * FROM {table_name};"
-                    dataframe_list.append(pd.read_sql_query(query, connection))
-                    logger.info(f"Data fetched for table: {table_name}")
-                else:
-                    logger.warning(f"Table '{table_name}' does not exist in the database. Skipping.")
-
-            return dataframe_list
-        
+                df = pd.read_sql_query(f"SELECT * FROM {table_name}", connection)
+                dataframes.append(df)
+            connection.close()
         except sqlite3.Error as e:
             logger.error(f"SQLite error: {e}")
+        return dataframes
 
-        finally:
-            # Close the database connection
-            if connection:
-                connection.close()       
-    
+
     def save_dataframes(self, dataframes: list, table_names: list):
         """
         Saves dataframes to the corresponding tables in the SQLite database.
@@ -61,6 +54,7 @@ class SQLliteHandler:
 
         try:
             # Connect to the SQLite database
+            os.makedirs(os.path.dirname(self.database), exist_ok=True)
             connection = sqlite3.connect(self.database)
             cursor = connection.cursor()
 

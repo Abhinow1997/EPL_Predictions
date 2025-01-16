@@ -5,7 +5,7 @@ import os
 from loguru import logger
 from eplprediction.common.configparser import ConfigParser
 import argparse
-from eplprediction.data.preprocessor import Preprocessor
+from eplprediction.data.preprocessor.preprocessing import Preprocessor
 import pandas as pd
 from eplprediction.db_handler.sqllite_db_handler import SQLliteHandler
 import aiohttp 
@@ -35,7 +35,7 @@ def main():
     config_file_path = parser.parse_args().config
     
     config_data_parser = ConfigParser(config_file_path, None)
-    config_data = config_data_parser.load_and_extract_yaml_section()
+    config_data = config_data_parser.load_and_extract_yaml()
     config = config_data_parser.load_configuration_class(config_data)
     
     logger.info(config)
@@ -54,16 +54,20 @@ def main():
             url_base = '/'.join(config.data_co_uk_url.split('/')[:-2])
                                                         
             # Format the URL with the t-year season code
-            url = os.path.join(url_base, two_year_code, config.data_co_uk_url.split('/')[-1])
-    
+            #url = os.path.join(url_base, two_year_code, config.data_co_uk_url.split('/')[-1])
+            url = f"{url_base}/{two_year_code}/{config.data_co_uk_url.split('/')[-1]}"
+            logger.debug(f"Constructed URL: {url}")
+
             response = requests.get(url)
             if response.status_code == 200:
                 file_path = os.path.join(config.data_co_uk_path, f'E0-{season}.csv')
-                with open(file_path, 'wb') as file:
-                    file.write(response.content)
+                os.makedirs(os.path.dirname(file_path), exist_ok=True)
+                with open(file_path, 'w',encoding='utf-8') as file:
+                    #logger.debug(response.content)
+                    file.write(response.content.decode('utf-8'))
                 logger.success(f'Data for season {season} saved at {file_path}.')
             else:
-                logger.error(f'Failed to download data for season {season}. Response code: {response.status_code}.')
+                logger.error(f'Failed to download data for season {season}. Response code: {response.status_code}.')                
                 exit(1)
 
     # Iterate through each file in the directory
@@ -102,4 +106,3 @@ def main():
     
 if __name__ == "__main__":
     main()
-            

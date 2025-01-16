@@ -9,7 +9,7 @@ from loguru import logger
 from tqdm import tqdm
 import os
 import sqlite3
-from eplprediction.db_handler.sqllite_db_handler import DatabaseHandler
+from eplprediction.db_handler.sqllite_db_handler import SQLliteHandler
 
 
 class Understat_Parser():
@@ -27,7 +27,7 @@ class Understat_Parser():
         self.league = league
         self.dictionary = dictionary
         self.upcoming_fixtures_table = "UpcomingFixtures"
-        self.database_handler = DatabaseHandler(database=database, league=league)
+        self.database_handler = SQLliteHandler(database=database, league=league)
         
     def replace_team_names(self, table_names: list, replacing_dict: dict) -> None:
         """
