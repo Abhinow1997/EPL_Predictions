@@ -34,3 +34,4 @@ data_gathering:
     EPL:
       url: 'https://fixturedownload.com/download/epl-2024-GMTStandardTime.csv'
       dictionary_path: 'eplprediction/data/dictionaries/fixture_download.yaml'
+      
