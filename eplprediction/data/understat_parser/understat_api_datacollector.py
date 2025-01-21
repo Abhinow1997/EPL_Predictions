@@ -65,7 +65,8 @@ class Understat_Parser():
 
             #reading the file and keeping only the finished matches
             season_dataframe = self.database_handler.get_data(table_names=data_co_uk_table_name)[0]
-            season_dataframe = season_dataframe.dropna(subset=['FTHG'])
+            season_dataframe = season_dataframe.dropna(subset=['FTHG']) # removing values for column FTHG (Full Time Home Goals) where it has missing values (NaNs).
+
 
             #creating a new Result column
             season_dataframe['Result'] = None
@@ -76,6 +77,27 @@ class Understat_Parser():
             try:
                 season_dataframe = season_dataframe[['Date', 'HomeTeam', 'AwayTeam', 'Result', 'B365H', 'B365D', 'B365A', 'B365>2.5', 'B365<2.5']]
                 season_dataframe = season_dataframe.rename(columns={'B365>2.5': 'OverOdds', 'B365<2.5': 'UnderOdds', 'B365H': 'HomeWinOdds', 'B365D': 'DrawOdds', 'B365A': 'AwayWinOdds'})
+                
+                # bookmaker_mapping = {
+                #     'B365H': 'Bet365_HomeWinOdds',
+                #     'B365D': 'Bet365_DrawOdds',
+                #     'B365A': 'Bet365_AwayWinOdds',
+                #     'B365>2.5': 'Bet365_OverOdds',
+                #     'B365<2.5': 'Bet365_UnderOdds',
+                #     'BFH': 'Betfair_HomeWinOdds',
+                #     'BFD': 'Betfair_DrawOdds',
+                #     'BFA': 'Betfair_AwayWinOdds',
+                #     'GBH': 'Gamebookers_HomeWinOdds',
+                #     'GBD': 'Gamebookers_DrawOdds',
+                #     'GBA': 'Gamebookers_AwayWinOdds',
+                #     'LBH': 'Ladbrokes_HomeWinOdds',
+                #     'LBD': 'Ladbrokes_DrawOdds',
+                #     'LBA': 'Ladbrokes_AwayWinOdds'
+                # }
+
+                # season_dataframe = season_dataframe[list(bookmaker_mapping.keys()) + ['Date', 'HomeTeam', 'AwayTeam', 'Result']]
+                # season_dataframe = season_dataframe.rename(columns=bookmaker_mapping)
+
             except KeyError:
                 season_dataframe = season_dataframe[['Date', 'HomeTeam', 'AwayTeam', 'Result', 'B365H', 'B365D', 'B365A', 'BbAv>2.5', 'BbAv<2.5']]
                 season_dataframe = season_dataframe.rename(columns={'BbAv>2.5': 'OverOdds', 'BbAv<2.5': 'UnderOdds', 'B365H': 'HomeWinOdds', 'B365D': 'DrawOdds', 'B365A': 'AwayWinOdds'})
