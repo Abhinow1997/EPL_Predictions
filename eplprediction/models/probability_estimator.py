@@ -221,8 +221,8 @@ class ProbabilityEstimatorNetwork:
         Returns:
             list: A list of arrays. Each array contains each scoreline predicted probability such that scoreline_array[home_goals][away_goals] = Probability_of_scoreline(home_goals-away_goals)
         """
-        max_g = 12
-        goal_values = np.arange(max_g + 1)
+        max_goals = 12
+        goal_values = np.arange(max_goals + 1)
         
         poisson_home = np.zeros((len(goal_values), 1))
         poisson_away = np.zeros((1, len(goal_values)))

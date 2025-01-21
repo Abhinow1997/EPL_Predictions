@@ -15,7 +15,7 @@ class Visualizer:
             prediction_dataframe (pd.DataFrame): A dataframe containing match information and predicted probabilities from the model
         """
         self.prediction_dataframe = prediction_dataframe.copy()
-        self.get_bookmaker_prob()
+        #self.get_bookmaker_prob()
 
     def get_bookmaker_prob(self):
         """Changes the bookmaker odds into probabilities
@@ -78,7 +78,7 @@ class Visualizer:
                 theta=['HomeWin', 'Draw', 'AwayWin', f"Over{self.prediction_dataframe.iloc[index]['Line']}", f"Under{self.prediction_dataframe.iloc[index]['Line']}", 'GG', 'NG'],
                 fill='toself',
                 name='Predicted Odds',
-                marker = dict(color ='rgb(141,211,199)'), #'rgb(217, 175, 107)'
+                marker = dict(color ='rgb(82, 61, 128)'),
                 visible=False if index!=0 else True,
                 hovertemplate='%{theta}<br>Probability: %{r:.2f}%<br>Predicted Probability'
           )
@@ -95,11 +95,14 @@ class Visualizer:
             scoreline_frame = scoreline_frame.sort_values(by=['P(score)'], ascending=False)
 
             # Rest of your code
+            colorscale = [
+            [0, 'rgba(163, 140, 255, 0.5)'],
+            [1, 'rgba(82, 61, 128, 1)'] ]
             trace_goals = go.Bar(
                 x=scoreline_frame['display_score'],
                 y=100 * np.round(scoreline_frame['P(score)'], 4),
                 visible=False if index != 0 else True,
-                marker=dict(color=scoreline_frame['P(score)'], colorscale='darkmint'),
+                marker=dict(color=scoreline_frame['P(score)'], colorscale=colorscale, cmin=0, cmax=scoreline_frame['P(score)'].max()),
                 name='Probable Scoreline',
                 hovertemplate='Score %{customdata}<br>Probability: %{y:.2f}%',
                 customdata=scoreline_frame['score']  # Use the original score for hover text
@@ -145,6 +148,7 @@ class Visualizer:
 
         # update the layout with the buttons
         fig.update_layout(
+            title="Predicted Result Plots",
             updatemenus=[go.layout.Updatemenu(
                 buttons=buttons,
                 active=0, # set the initial active button

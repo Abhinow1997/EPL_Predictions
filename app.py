@@ -18,7 +18,7 @@ def league_predictions_figure(league_name, regressor_str, matchdays_to_drop, lon
     as well as a barplot with the most probable scorelines according to the model.
 
     Args:
-        league_name (str): One of the available leagues ['EPL', 'Bundesliga', 'Ligue_1', 'La_Liga', 'Serie_A']
+        league_name (str): One of the available leagues ['EPL'].
         regressor_str (str): One of the available regressors ['LinearRegression', 'PoissonRegressor', 'SVR']
         matchdays_to_drop (int): The matchdays at the start of the season that are considered to provide redundant information to the model because the league table is not yet indicative of the teams performance due to small sample size.
         long_form_vote (int): The weight with which the model produces the predictions between long form and short form. The short_form_vote is then calculated by 1-long_form_vote. Long form and short form are dependent on the users configuration before the data collection. Defaults are long_form : season long form, short_form : 3 month form.
@@ -63,7 +63,7 @@ def league_predictions_figure(league_name, regressor_str, matchdays_to_drop, lon
 
     visualizer = Visualizer(probability_dataframe)
     figure = visualizer.radar_scoreline_plot()
-    html_table = build_table(probability_dataframe.drop(['ScorelineProbability', 'Match_id'], axis=1), 'blue_light')
+    html_table = build_table(probability_dataframe.drop(['ScorelineProbability', 'Match_id'], axis=1),'blue_dark', odd_bg_color='blue_dark', text_align='center')
 
     return figure, html_table
 
@@ -72,7 +72,7 @@ def main():
     """
     with gr.Blocks() as iface:
         with gr.Row():
-            drop1 = gr.Dropdown(['EPL', 'Bundesliga', 'Ligue_1', 'La_Liga', 'Serie_A'], label="Select League")
+            drop1 = gr.Dropdown(['EPL'], label="Select League") # theres only one league available
             drop3 = gr.Dropdown(['LinearRegression', 'PoissonRegressor', 'SVR'], label="Select regressor Type")
         with gr.Row():
             with gr.Column(scale=1, min_width=600):
